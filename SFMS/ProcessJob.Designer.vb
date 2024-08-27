@@ -49,6 +49,8 @@ Partial Class FRM_ProcessJob
         '
         'Panel1
         '
+        Me.Panel1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel1.BackColor = System.Drawing.SystemColors.Highlight
         Me.Panel1.Controls.Add(Me.Label2)
         Me.Panel1.Controls.Add(Me.Label1)
@@ -120,7 +122,7 @@ Partial Class FRM_ProcessJob
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Franklin Gothic Medium", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(726, 58)
+        Me.Label7.Location = New System.Drawing.Point(703, 58)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(108, 24)
         Me.Label7.TabIndex = 5
@@ -130,7 +132,7 @@ Partial Class FRM_ProcessJob
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Franklin Gothic Medium", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(741, 94)
+        Me.Label8.Location = New System.Drawing.Point(718, 94)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(90, 24)
         Me.Label8.TabIndex = 6
@@ -138,36 +140,36 @@ Partial Class FRM_ProcessJob
         '
         'Button1
         '
-        Me.Button1.Font = New System.Drawing.Font("Arial", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.SystemColors.Highlight
         Me.Button1.Location = New System.Drawing.Point(28, 39)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(295, 88)
         Me.Button1.TabIndex = 7
         Me.Button1.Text = "MONITORING CHECKLIST"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'Button2
         '
-        Me.Button2.Font = New System.Drawing.Font("Arial", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.SystemColors.Highlight
         Me.Button2.Location = New System.Drawing.Point(343, 39)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(295, 88)
         Me.Button2.TabIndex = 8
         Me.Button2.Text = "GENERATE JOB BARCODE"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.Button2.UseVisualStyleBackColor = False
         '
         'Button3
         '
-        Me.Button3.Font = New System.Drawing.Font("Arial", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.ForeColor = System.Drawing.SystemColors.Highlight
         Me.Button3.Location = New System.Drawing.Point(658, 39)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(295, 88)
         Me.Button3.TabIndex = 9
         Me.Button3.Text = "PRINT PALLET TAGS"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.Button3.UseVisualStyleBackColor = False
         '
         'TextBox2
         '
@@ -228,6 +230,8 @@ Partial Class FRM_ProcessJob
         '
         'GroupBox1
         '
+        Me.GroupBox1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.GroupBox1.Controls.Add(Me.Label11)
         Me.GroupBox1.Controls.Add(Me.Label10)
         Me.GroupBox1.Controls.Add(Me.Label9)
@@ -249,6 +253,8 @@ Partial Class FRM_ProcessJob
         '
         'GroupBox2
         '
+        Me.GroupBox2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.GroupBox2.Controls.Add(Me.Button3)
         Me.GroupBox2.Controls.Add(Me.Button2)
         Me.GroupBox2.Controls.Add(Me.Button1)

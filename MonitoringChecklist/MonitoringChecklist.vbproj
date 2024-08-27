@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{926A16CA-A9FE-4711-9EC4-1690E7822BCB}</ProjectGuid>
+    <ProjectGuid>{E2E2AA91-4B88-4B6A-896C-BB55984EBF26}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>SFMS.My.MyApplication</StartupObject>
-    <RootNamespace>SFMS</RootNamespace>
-    <AssemblyName>SFMS</AssemblyName>
+    <StartupObject>MonitoringChecklist.My.MyApplication</StartupObject>
+    <RootNamespace>MonitoringChecklist</RootNamespace>
+    <AssemblyName>MonitoringChecklist</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
@@ -21,7 +21,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>SFMS.xml</DocumentationFile>
+    <DocumentationFile>MonitoringChecklist.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -31,7 +31,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>SFMS.xml</DocumentationFile>
+    <DocumentationFile>MonitoringChecklist.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -72,17 +72,11 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MonitoringChecklist.Designer.vb">
-      <DependentUpon>MonitoringChecklist.vb</DependentUpon>
-    </Compile>
-    <Compile Include="MonitoringChecklist.vb">
+    <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ProcessJob.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ProcessJob.Designer.vb">
-      <DependentUpon>ProcessJob.vb</DependentUpon>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -102,11 +96,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="MonitoringChecklist.resx">
-      <DependentUpon>MonitoringChecklist.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ProcessJob.resx">
-      <DependentUpon>ProcessJob.vb</DependentUpon>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
