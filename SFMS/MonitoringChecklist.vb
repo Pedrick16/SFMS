@@ -9,14 +9,16 @@
         DataGridView1.Rows.Add("10:00")
         DataGridView1.Rows.Add("11:00")
         DataGridView1.Rows.Add("12:00")
-        DataGridView1.Rows.Add("1:00")
-        DataGridView1.Rows.Add("2:00")
-        DataGridView1.Rows.Add("3:00")
-        DataGridView1.Rows.Add("4:00")
-        DataGridView1.Rows.Add("5:00")
-        DataGridView1.Rows.Add("6:00")
+        DataGridView1.Rows.Add("01:00")
+        DataGridView1.Rows.Add("02:00")
+        DataGridView1.Rows.Add("03:00")
+        DataGridView1.Rows.Add("04:00")
+        DataGridView1.Rows.Add("05:00")
+        DataGridView1.Rows.Add("06:00")
 
     End Sub
 
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
 
+    End Sub
 End Class
