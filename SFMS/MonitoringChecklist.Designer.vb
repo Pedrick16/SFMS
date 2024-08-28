@@ -22,6 +22,7 @@ Partial Class MonitoringChecklist
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
@@ -37,25 +38,15 @@ Partial Class MonitoringChecklist
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.Button6 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button5 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.Panel4 = New System.Windows.Forms.Panel()
-        Me.Panel5 = New System.Windows.Forms.Panel()
-        Me.Panel6 = New System.Windows.Forms.Panel()
-        Me.Panel7 = New System.Windows.Forms.Panel()
-        Me.Label10 = New System.Windows.Forms.Label()
-        Me.Label11 = New System.Windows.Forms.Label()
-        Me.Panel8 = New System.Windows.Forms.Panel()
-        Me.Label12 = New System.Windows.Forms.Label()
-        Me.Panel9 = New System.Windows.Forms.Panel()
-        Me.Label13 = New System.Windows.Forms.Label()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
         Me.DGV_Time = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DGV_CuttingBladeSharp = New System.Windows.Forms.DataGridViewComboBoxColumn()
         Me.DGV_CuttingBladeCon = New System.Windows.Forms.DataGridViewComboBoxColumn()
-        Me.DGV_LooseFi = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.DGV_LooseFi = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DGV_OffSquare = New System.Windows.Forms.DataGridViewComboBoxColumn()
         Me.DBV_IncorrectDi = New System.Windows.Forms.DataGridViewComboBoxColumn()
         Me.DGV_TearOff = New System.Windows.Forms.DataGridViewComboBoxColumn()
@@ -68,12 +59,25 @@ Partial Class MonitoringChecklist
         Me.DGV_IncorectDi1 = New System.Windows.Forms.DataGridViewComboBoxColumn()
         Me.DGV_TearOff1 = New System.Windows.Forms.DataGridViewComboBoxColumn()
         Me.DGV_IncorrectGrainDi1 = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Panel5 = New System.Windows.Forms.Panel()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Panel6 = New System.Windows.Forms.Panel()
+        Me.Panel7 = New System.Windows.Forms.Panel()
+        Me.Panel8 = New System.Windows.Forms.Panel()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Panel9 = New System.Windows.Forms.Panel()
+        Me.Label13 = New System.Windows.Forms.Label()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label14 = New System.Windows.Forms.Label()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.Label15 = New System.Windows.Forms.Label()
         Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.Label16 = New System.Windows.Forms.Label()
+        Me.DataGridView2 = New System.Windows.Forms.DataGridView()
+        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.Label17 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.Panel3.SuspendLayout()
@@ -82,6 +86,7 @@ Partial Class MonitoringChecklist
         Me.Panel5.SuspendLayout()
         Me.Panel8.SuspendLayout()
         Me.Panel9.SuspendLayout()
+        CType(Me.DataGridView2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Panel1
@@ -91,9 +96,9 @@ Partial Class MonitoringChecklist
         Me.Panel1.BackColor = System.Drawing.SystemColors.Highlight
         Me.Panel1.Controls.Add(Me.Label2)
         Me.Panel1.Location = New System.Drawing.Point(-5, 0)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1683, 84)
+        Me.Panel1.Size = New System.Drawing.Size(1871, 84)
         Me.Panel1.TabIndex = 0
         '
         'Label2
@@ -125,15 +130,15 @@ Partial Class MonitoringChecklist
         Me.Panel2.Controls.Add(Me.Label1)
         Me.Panel2.Controls.Add(Me.Label3)
         Me.Panel2.Location = New System.Drawing.Point(2, 80)
-        Me.Panel2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Panel2.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(1681, 193)
+        Me.Panel2.Size = New System.Drawing.Size(1869, 151)
         Me.Panel2.TabIndex = 1
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(1429, 33)
-        Me.TextBox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TextBox2.Location = New System.Drawing.Point(1554, 12)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox2.Multiline = True
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(164, 25)
@@ -143,8 +148,8 @@ Partial Class MonitoringChecklist
         '
         Me.Button2.Font = New System.Drawing.Font("Arial", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Button2.Location = New System.Drawing.Point(1543, 124)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button2.Location = New System.Drawing.Point(1651, 94)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(2)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(104, 33)
         Me.Button2.TabIndex = 10
@@ -155,8 +160,8 @@ Partial Class MonitoringChecklist
         '
         Me.Button1.Font = New System.Drawing.Font("Arial", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Button1.Location = New System.Drawing.Point(1429, 124)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button1.Location = New System.Drawing.Point(1537, 94)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(2)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(104, 33)
         Me.Button1.TabIndex = 9
@@ -167,7 +172,7 @@ Partial Class MonitoringChecklist
         '
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Franklin Gothic Medium", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(1353, 93)
+        Me.Label9.Location = New System.Drawing.Point(1478, 72)
         Me.Label9.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(57, 20)
@@ -178,7 +183,7 @@ Partial Class MonitoringChecklist
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Franklin Gothic Medium", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(1320, 65)
+        Me.Label8.Location = New System.Drawing.Point(1445, 44)
         Me.Label8.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(95, 20)
@@ -189,7 +194,7 @@ Partial Class MonitoringChecklist
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Franklin Gothic Medium", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(1347, 38)
+        Me.Label7.Location = New System.Drawing.Point(1472, 17)
         Me.Label7.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(63, 20)
@@ -200,7 +205,7 @@ Partial Class MonitoringChecklist
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Franklin Gothic Medium", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(706, 65)
+        Me.Label6.Location = New System.Drawing.Point(865, 44)
         Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(75, 20)
@@ -211,7 +216,7 @@ Partial Class MonitoringChecklist
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Franklin Gothic Medium", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(727, 38)
+        Me.Label5.Location = New System.Drawing.Point(886, 17)
         Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(52, 20)
@@ -222,7 +227,7 @@ Partial Class MonitoringChecklist
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Franklin Gothic Medium", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(74, 93)
+        Me.Label4.Location = New System.Drawing.Point(110, 72)
         Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(89, 20)
@@ -233,7 +238,7 @@ Partial Class MonitoringChecklist
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Franklin Gothic Medium", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(117, 65)
+        Me.Label1.Location = New System.Drawing.Point(153, 44)
         Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(42, 20)
@@ -244,7 +249,7 @@ Partial Class MonitoringChecklist
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Franklin Gothic Medium", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(81, 38)
+        Me.Label3.Location = New System.Drawing.Point(117, 17)
         Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(82, 20)
@@ -260,18 +265,54 @@ Partial Class MonitoringChecklist
         Me.Panel3.Controls.Add(Me.Button4)
         Me.Panel3.Controls.Add(Me.Button5)
         Me.Panel3.Controls.Add(Me.Button3)
-        Me.Panel3.Location = New System.Drawing.Point(0, 270)
-        Me.Panel3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Panel3.Location = New System.Drawing.Point(2, 220)
+        Me.Panel3.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(1683, 82)
+        Me.Panel3.Size = New System.Drawing.Size(1871, 83)
         Me.Panel3.TabIndex = 2
+        '
+        'Button6
+        '
+        Me.Button6.BackColor = System.Drawing.Color.White
+        Me.Button6.Font = New System.Drawing.Font("Arial", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button6.Location = New System.Drawing.Point(1307, 7)
+        Me.Button6.Margin = New System.Windows.Forms.Padding(2)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(373, 67)
+        Me.Button6.TabIndex = 9
+        Me.Button6.Text = "NXT PROCESS SV"
+        Me.Button6.UseVisualStyleBackColor = False
+        '
+        'Button4
+        '
+        Me.Button4.BackColor = System.Drawing.Color.White
+        Me.Button4.Font = New System.Drawing.Font("Arial", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button4.Location = New System.Drawing.Point(930, 7)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(2)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(373, 67)
+        Me.Button4.TabIndex = 8
+        Me.Button4.Text = "SUPERINTENDENT"
+        Me.Button4.UseVisualStyleBackColor = False
+        '
+        'Button5
+        '
+        Me.Button5.BackColor = System.Drawing.Color.White
+        Me.Button5.Font = New System.Drawing.Font("Arial", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button5.Location = New System.Drawing.Point(553, 7)
+        Me.Button5.Margin = New System.Windows.Forms.Padding(2)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(373, 67)
+        Me.Button5.TabIndex = 7
+        Me.Button5.Text = "SUPERVISOR"
+        Me.Button5.UseVisualStyleBackColor = False
         '
         'Button3
         '
         Me.Button3.BackColor = System.Drawing.Color.White
         Me.Button3.Font = New System.Drawing.Font("Arial", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(87, 7)
-        Me.Button3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button3.Location = New System.Drawing.Point(176, 7)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(2)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(373, 67)
         Me.Button3.TabIndex = 5
@@ -286,146 +327,12 @@ Partial Class MonitoringChecklist
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DGV_Time, Me.DGV_CuttingBladeSharp, Me.DGV_CuttingBladeCon, Me.DGV_LooseFi, Me.DGV_OffSquare, Me.DBV_IncorrectDi, Me.DGV_TearOff, Me.DGV_IncorrectGrain, Me.DGV_TIME2, Me.DGV_CuttingBladeSharp1, Me.DGV_CuttingBladeCon1, Me.DGV_LooseFiber1, Me.DGV_OffSquare1, Me.DGV_IncorectDi1, Me.DGV_TearOff1, Me.DGV_IncorrectGrainDi1})
         Me.DataGridView1.GridColor = System.Drawing.SystemColors.ControlLight
-        Me.DataGridView1.Location = New System.Drawing.Point(19, 417)
-        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.DataGridView1.Location = New System.Drawing.Point(123, 367)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(2)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowTemplate.Height = 24
-        Me.DataGridView1.Size = New System.Drawing.Size(1650, 327)
+        Me.DataGridView1.Size = New System.Drawing.Size(1649, 327)
         Me.DataGridView1.TabIndex = 3
-        '
-        'Panel4
-        '
-        Me.Panel4.BackColor = System.Drawing.Color.White
-        Me.Panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel4.Controls.Add(Me.Label10)
-        Me.Panel4.Location = New System.Drawing.Point(361, 371)
-        Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(500, 46)
-        Me.Panel4.TabIndex = 4
-        '
-        'Panel5
-        '
-        Me.Panel5.BackColor = System.Drawing.Color.White
-        Me.Panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel5.Controls.Add(Me.Label11)
-        Me.Panel5.Location = New System.Drawing.Point(160, 371)
-        Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(202, 46)
-        Me.Panel5.TabIndex = 5
-        '
-        'Panel6
-        '
-        Me.Panel6.BackColor = System.Drawing.Color.White
-        Me.Panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel6.Location = New System.Drawing.Point(19, 371)
-        Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(144, 46)
-        Me.Panel6.TabIndex = 6
-        '
-        'Panel7
-        '
-        Me.Panel7.BackColor = System.Drawing.Color.White
-        Me.Panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel7.Location = New System.Drawing.Point(860, 371)
-        Me.Panel7.Name = "Panel7"
-        Me.Panel7.Size = New System.Drawing.Size(103, 46)
-        Me.Panel7.TabIndex = 7
-        '
-        'Label10
-        '
-        Me.Label10.AutoSize = True
-        Me.Label10.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(175, 13)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(129, 16)
-        Me.Label10.TabIndex = 0
-        Me.Label10.Text = "Product Monitoring"
-        '
-        'Label11
-        '
-        Me.Label11.AutoSize = True
-        Me.Label11.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(36, 14)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(129, 16)
-        Me.Label11.TabIndex = 1
-        Me.Label11.Text = "Process Monitoring"
-        '
-        'Panel8
-        '
-        Me.Panel8.BackColor = System.Drawing.Color.White
-        Me.Panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel8.Controls.Add(Me.Label12)
-        Me.Panel8.Location = New System.Drawing.Point(961, 371)
-        Me.Panel8.Name = "Panel8"
-        Me.Panel8.Size = New System.Drawing.Size(201, 46)
-        Me.Panel8.TabIndex = 8
-        '
-        'Label12
-        '
-        Me.Label12.AutoSize = True
-        Me.Label12.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(36, 14)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(129, 16)
-        Me.Label12.TabIndex = 1
-        Me.Label12.Text = "Process Monitoring"
-        '
-        'Panel9
-        '
-        Me.Panel9.BackColor = System.Drawing.Color.White
-        Me.Panel9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel9.Controls.Add(Me.Label13)
-        Me.Panel9.Location = New System.Drawing.Point(1162, 371)
-        Me.Panel9.Name = "Panel9"
-        Me.Panel9.Size = New System.Drawing.Size(506, 46)
-        Me.Panel9.TabIndex = 9
-        '
-        'Label13
-        '
-        Me.Label13.AutoSize = True
-        Me.Label13.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(175, 13)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(129, 16)
-        Me.Label13.TabIndex = 0
-        Me.Label13.Text = "Product Monitoring"
-        '
-        'Button5
-        '
-        Me.Button5.BackColor = System.Drawing.Color.White
-        Me.Button5.Font = New System.Drawing.Font("Arial", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.Location = New System.Drawing.Point(464, 7)
-        Me.Button5.Margin = New System.Windows.Forms.Padding(2)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(373, 67)
-        Me.Button5.TabIndex = 7
-        Me.Button5.Text = "SUPERVISOR"
-        Me.Button5.UseVisualStyleBackColor = False
-        '
-        'Button4
-        '
-        Me.Button4.BackColor = System.Drawing.Color.White
-        Me.Button4.Font = New System.Drawing.Font("Arial", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(841, 7)
-        Me.Button4.Margin = New System.Windows.Forms.Padding(2)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(373, 67)
-        Me.Button4.TabIndex = 8
-        Me.Button4.Text = "SUPERINTENDENT"
-        Me.Button4.UseVisualStyleBackColor = False
-        '
-        'Button6
-        '
-        Me.Button6.BackColor = System.Drawing.Color.White
-        Me.Button6.Font = New System.Drawing.Font("Arial", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button6.Location = New System.Drawing.Point(1218, 7)
-        Me.Button6.Margin = New System.Windows.Forms.Padding(2)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(373, 67)
-        Me.Button6.TabIndex = 9
-        Me.Button6.Text = "NXT PROCESS SV"
-        Me.Button6.UseVisualStyleBackColor = False
         '
         'DGV_Time
         '
@@ -448,8 +355,12 @@ Partial Class MonitoringChecklist
         '
         'DGV_LooseFi
         '
+        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.DGV_LooseFi.DefaultCellStyle = DataGridViewCellStyle5
         Me.DGV_LooseFi.HeaderText = "Loose Fiber (Mahimulmol)"
         Me.DGV_LooseFi.Name = "DGV_LooseFi"
+        Me.DGV_LooseFi.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DGV_LooseFi.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
         '
         'DGV_OffSquare
         '
@@ -519,9 +430,109 @@ Partial Class MonitoringChecklist
         Me.DGV_IncorrectGrainDi1.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
         Me.DGV_IncorrectGrainDi1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
         '
+        'Panel4
+        '
+        Me.Panel4.BackColor = System.Drawing.Color.White
+        Me.Panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel4.Controls.Add(Me.Label10)
+        Me.Panel4.Location = New System.Drawing.Point(465, 321)
+        Me.Panel4.Name = "Panel4"
+        Me.Panel4.Size = New System.Drawing.Size(500, 46)
+        Me.Panel4.TabIndex = 4
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Location = New System.Drawing.Point(175, 13)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(129, 16)
+        Me.Label10.TabIndex = 0
+        Me.Label10.Text = "Product Monitoring"
+        '
+        'Panel5
+        '
+        Me.Panel5.BackColor = System.Drawing.Color.White
+        Me.Panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel5.Controls.Add(Me.Label11)
+        Me.Panel5.Location = New System.Drawing.Point(264, 321)
+        Me.Panel5.Name = "Panel5"
+        Me.Panel5.Size = New System.Drawing.Size(202, 46)
+        Me.Panel5.TabIndex = 5
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Location = New System.Drawing.Point(36, 14)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(129, 16)
+        Me.Label11.TabIndex = 1
+        Me.Label11.Text = "Process Monitoring"
+        '
+        'Panel6
+        '
+        Me.Panel6.BackColor = System.Drawing.Color.White
+        Me.Panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel6.Location = New System.Drawing.Point(123, 321)
+        Me.Panel6.Name = "Panel6"
+        Me.Panel6.Size = New System.Drawing.Size(144, 46)
+        Me.Panel6.TabIndex = 6
+        '
+        'Panel7
+        '
+        Me.Panel7.BackColor = System.Drawing.Color.White
+        Me.Panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel7.Location = New System.Drawing.Point(964, 321)
+        Me.Panel7.Name = "Panel7"
+        Me.Panel7.Size = New System.Drawing.Size(103, 46)
+        Me.Panel7.TabIndex = 7
+        '
+        'Panel8
+        '
+        Me.Panel8.BackColor = System.Drawing.Color.White
+        Me.Panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel8.Controls.Add(Me.Label12)
+        Me.Panel8.Location = New System.Drawing.Point(1065, 321)
+        Me.Panel8.Name = "Panel8"
+        Me.Panel8.Size = New System.Drawing.Size(201, 46)
+        Me.Panel8.TabIndex = 8
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.Location = New System.Drawing.Point(36, 14)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(129, 16)
+        Me.Label12.TabIndex = 1
+        Me.Label12.Text = "Process Monitoring"
+        '
+        'Panel9
+        '
+        Me.Panel9.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Panel9.BackColor = System.Drawing.Color.White
+        Me.Panel9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel9.Controls.Add(Me.Label13)
+        Me.Panel9.Location = New System.Drawing.Point(1266, 321)
+        Me.Panel9.Name = "Panel9"
+        Me.Panel9.Size = New System.Drawing.Size(506, 46)
+        Me.Panel9.TabIndex = 9
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label13.Location = New System.Drawing.Point(175, 13)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(129, 16)
+        Me.Label13.TabIndex = 0
+        Me.Label13.Text = "Product Monitoring"
+        '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(823, 762)
+        Me.TextBox1.Location = New System.Drawing.Point(927, 707)
         Me.TextBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox1.Multiline = True
         Me.TextBox1.Name = "TextBox1"
@@ -532,7 +543,7 @@ Partial Class MonitoringChecklist
         '
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Franklin Gothic Medium", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(711, 767)
+        Me.Label14.Location = New System.Drawing.Point(815, 712)
         Me.Label14.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(105, 20)
@@ -541,7 +552,7 @@ Partial Class MonitoringChecklist
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(1139, 762)
+        Me.TextBox3.Location = New System.Drawing.Point(1243, 707)
         Me.TextBox3.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox3.Multiline = True
         Me.TextBox3.Name = "TextBox3"
@@ -552,7 +563,7 @@ Partial Class MonitoringChecklist
         '
         Me.Label15.AutoSize = True
         Me.Label15.Font = New System.Drawing.Font("Franklin Gothic Medium", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.Location = New System.Drawing.Point(1027, 767)
+        Me.Label15.Location = New System.Drawing.Point(1131, 712)
         Me.Label15.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(105, 20)
@@ -561,7 +572,7 @@ Partial Class MonitoringChecklist
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(1504, 762)
+        Me.TextBox4.Location = New System.Drawing.Point(1608, 707)
         Me.TextBox4.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox4.Multiline = True
         Me.TextBox4.Name = "TextBox4"
@@ -572,18 +583,51 @@ Partial Class MonitoringChecklist
         '
         Me.Label16.AutoSize = True
         Me.Label16.Font = New System.Drawing.Font("Franklin Gothic Medium", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label16.Location = New System.Drawing.Point(1422, 767)
+        Me.Label16.Location = New System.Drawing.Point(1526, 712)
         Me.Label16.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(59, 20)
         Me.Label16.TabIndex = 17
         Me.Label16.Text = "TOTAL:"
         '
+        'DataGridView2
+        '
+        Me.DataGridView2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.DataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView2.Location = New System.Drawing.Point(125, 760)
+        Me.DataGridView2.Name = "DataGridView2"
+        Me.DataGridView2.Size = New System.Drawing.Size(1649, 159)
+        Me.DataGridView2.TabIndex = 19
+        '
+        'TextBox5
+        '
+        Me.TextBox5.Location = New System.Drawing.Point(410, 944)
+        Me.TextBox5.Name = "TextBox5"
+        Me.TextBox5.Size = New System.Drawing.Size(693, 20)
+        Me.TextBox5.TabIndex = 20
+        '
+        'Label17
+        '
+        Me.Label17.AutoSize = True
+        Me.Label17.Font = New System.Drawing.Font("Franklin Gothic Medium", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label17.Location = New System.Drawing.Point(322, 944)
+        Me.Label17.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(88, 20)
+        Me.Label17.TabIndex = 21
+        Me.Label17.Text = "REMARKS:"
+        '
         'MonitoringChecklist
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1680, 826)
+        Me.AutoScroll = True
+        Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
+        Me.ClientSize = New System.Drawing.Size(1868, 1061)
+        Me.Controls.Add(Me.Label17)
+        Me.Controls.Add(Me.TextBox5)
+        Me.Controls.Add(Me.DataGridView2)
         Me.Controls.Add(Me.TextBox4)
         Me.Controls.Add(Me.Label16)
         Me.Controls.Add(Me.TextBox3)
@@ -600,8 +644,7 @@ Partial Class MonitoringChecklist
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.MaximizeBox = False
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "MonitoringChecklist"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
         Me.Text = "MonitoringChecklist"
@@ -619,6 +662,7 @@ Partial Class MonitoringChecklist
         Me.Panel8.PerformLayout()
         Me.Panel9.ResumeLayout(False)
         Me.Panel9.PerformLayout()
+        CType(Me.DataGridView2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -654,10 +698,16 @@ Partial Class MonitoringChecklist
     Friend WithEvents Label12 As Label
     Friend WithEvents Panel9 As Panel
     Friend WithEvents Label13 As Label
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents Label14 As Label
+    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents Label15 As Label
+    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents Label16 As Label
     Friend WithEvents DGV_Time As DataGridViewTextBoxColumn
     Friend WithEvents DGV_CuttingBladeSharp As DataGridViewComboBoxColumn
     Friend WithEvents DGV_CuttingBladeCon As DataGridViewComboBoxColumn
-    Friend WithEvents DGV_LooseFi As DataGridViewComboBoxColumn
+    Friend WithEvents DGV_LooseFi As DataGridViewTextBoxColumn
     Friend WithEvents DGV_OffSquare As DataGridViewComboBoxColumn
     Friend WithEvents DBV_IncorrectDi As DataGridViewComboBoxColumn
     Friend WithEvents DGV_TearOff As DataGridViewComboBoxColumn
@@ -670,10 +720,7 @@ Partial Class MonitoringChecklist
     Friend WithEvents DGV_IncorectDi1 As DataGridViewComboBoxColumn
     Friend WithEvents DGV_TearOff1 As DataGridViewComboBoxColumn
     Friend WithEvents DGV_IncorrectGrainDi1 As DataGridViewComboBoxColumn
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents Label14 As Label
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents Label15 As Label
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents Label16 As Label
+    Friend WithEvents DataGridView2 As DataGridView
+    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents Label17 As Label
 End Class

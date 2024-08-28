@@ -16,9 +16,8 @@
         DataGridView1.Rows.Add("05:00")
         DataGridView1.Rows.Add("06:00")
 
-    End Sub
-
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
 
     End Sub
+
+
 End Class
