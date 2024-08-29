@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class MonitoringChecklist
+Partial Class FRM_MonitoringChecklistOperator
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -23,9 +23,9 @@ Partial Class MonitoringChecklist
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
@@ -63,47 +63,47 @@ Partial Class MonitoringChecklist
         Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.Label16 = New System.Windows.Forms.Label()
         Me.DataGridView2 = New System.Windows.Forms.DataGridView()
-        Me.Label17 = New System.Windows.Forms.Label()
-        Me.Panel10 = New System.Windows.Forms.Panel()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.Panel13 = New System.Windows.Forms.Panel()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.Panel11 = New System.Windows.Forms.Panel()
-        Me.Panel12 = New System.Windows.Forms.Panel()
-        Me.Label18 = New System.Windows.Forms.Label()
-        Me.Label19 = New System.Windows.Forms.Label()
-        Me.Label20 = New System.Windows.Forms.Label()
-        Me.Label21 = New System.Windows.Forms.Label()
-        Me.Panel14 = New System.Windows.Forms.Panel()
-        Me.Panel15 = New System.Windows.Forms.Panel()
-        Me.Panel16 = New System.Windows.Forms.Panel()
-        Me.Label22 = New System.Windows.Forms.Label()
-        Me.Label23 = New System.Windows.Forms.Label()
-        Me.Label24 = New System.Windows.Forms.Label()
-        Me.Label25 = New System.Windows.Forms.Label()
-        Me.Label26 = New System.Windows.Forms.Label()
         Me.DGV_PalletNo1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DGV_Quantity1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DGV_PalletNo2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DGV_Quantity2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DGV_Quantity3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Label17 = New System.Windows.Forms.Label()
+        Me.Panel10 = New System.Windows.Forms.Panel()
+        Me.Label19 = New System.Windows.Forms.Label()
+        Me.Label18 = New System.Windows.Forms.Label()
+        Me.TextBox6 = New System.Windows.Forms.TextBox()
+        Me.Panel13 = New System.Windows.Forms.Panel()
+        Me.Label23 = New System.Windows.Forms.Label()
+        Me.Label22 = New System.Windows.Forms.Label()
+        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.Panel11 = New System.Windows.Forms.Panel()
+        Me.Label20 = New System.Windows.Forms.Label()
+        Me.Panel12 = New System.Windows.Forms.Panel()
+        Me.Label21 = New System.Windows.Forms.Label()
+        Me.Panel14 = New System.Windows.Forms.Panel()
+        Me.Label24 = New System.Windows.Forms.Label()
+        Me.Panel15 = New System.Windows.Forms.Panel()
+        Me.Label25 = New System.Windows.Forms.Label()
+        Me.Panel16 = New System.Windows.Forms.Panel()
+        Me.Label26 = New System.Windows.Forms.Label()
         Me.TextBox7 = New System.Windows.Forms.TextBox()
-        Me.DGV_Time = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DGV_CuttingBladeSharp = New System.Windows.Forms.DataGridViewComboBoxColumn()
-        Me.DGV_CuttingBladeCon = New System.Windows.Forms.DataGridViewComboBoxColumn()
-        Me.DGV_LooseFi = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DGV_OffSquare = New System.Windows.Forms.DataGridViewComboBoxColumn()
-        Me.DBV_IncorrectDi = New System.Windows.Forms.DataGridViewComboBoxColumn()
-        Me.DGV_TearOff = New System.Windows.Forms.DataGridViewComboBoxColumn()
-        Me.DGV_IncorrectGrain = New System.Windows.Forms.DataGridViewComboBoxColumn()
-        Me.DGV_TIME2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DGV_CuttingBladeSharp1 = New System.Windows.Forms.DataGridViewComboBoxColumn()
-        Me.DGV_CuttingBladeCon1 = New System.Windows.Forms.DataGridViewComboBoxColumn()
-        Me.DGV_LooseFiber1 = New System.Windows.Forms.DataGridViewComboBoxColumn()
-        Me.DGV_OffSquare1 = New System.Windows.Forms.DataGridViewComboBoxColumn()
-        Me.DGV_IncorectDi1 = New System.Windows.Forms.DataGridViewComboBoxColumn()
-        Me.DGV_TearOff1 = New System.Windows.Forms.DataGridViewComboBoxColumn()
         Me.DGV_IncorrectGrainDi1 = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.DGV_TearOff1 = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.DGV_IncorectDi1 = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.DGV_OffSquare1 = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.DGV_LooseFiber1 = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.DGV_CuttingBladeCon1 = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.DGV_CuttingBladeSharp1 = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.DGV_TIME2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DGV_IncorrectGrain = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.DGV_TearOff = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.DBV_IncorrectDi = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.DGV_OffSquare = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.DGV_LooseFi = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DGV_CuttingBladeCon = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.DGV_CuttingBladeSharp = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.DGV_Time = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.Panel3.SuspendLayout()
@@ -306,7 +306,7 @@ Partial Class MonitoringChecklist
         '
         'Button6
         '
-        Me.Button6.BackColor = System.Drawing.Color.White
+        Me.Button6.BackColor = System.Drawing.Color.WhiteSmoke
         Me.Button6.Font = New System.Drawing.Font("Arial", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button6.Location = New System.Drawing.Point(1307, 7)
         Me.Button6.Margin = New System.Windows.Forms.Padding(2)
@@ -318,7 +318,7 @@ Partial Class MonitoringChecklist
         '
         'Button4
         '
-        Me.Button4.BackColor = System.Drawing.Color.White
+        Me.Button4.BackColor = System.Drawing.Color.WhiteSmoke
         Me.Button4.Font = New System.Drawing.Font("Arial", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button4.Location = New System.Drawing.Point(930, 7)
         Me.Button4.Margin = New System.Windows.Forms.Padding(2)
@@ -330,7 +330,7 @@ Partial Class MonitoringChecklist
         '
         'Button5
         '
-        Me.Button5.BackColor = System.Drawing.Color.White
+        Me.Button5.BackColor = System.Drawing.Color.WhiteSmoke
         Me.Button5.Font = New System.Drawing.Font("Arial", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button5.Location = New System.Drawing.Point(553, 7)
         Me.Button5.Margin = New System.Windows.Forms.Padding(2)
@@ -344,6 +344,7 @@ Partial Class MonitoringChecklist
         '
         Me.Button3.BackColor = System.Drawing.Color.White
         Me.Button3.Font = New System.Drawing.Font("Arial", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.ForeColor = System.Drawing.SystemColors.Highlight
         Me.Button3.Location = New System.Drawing.Point(176, 7)
         Me.Button3.Margin = New System.Windows.Forms.Padding(2)
         Me.Button3.Name = "Button3"
@@ -539,204 +540,6 @@ Partial Class MonitoringChecklist
         Me.DataGridView2.Size = New System.Drawing.Size(1296, 90)
         Me.DataGridView2.TabIndex = 19
         '
-        'Label17
-        '
-        Me.Label17.AutoSize = True
-        Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label17.Location = New System.Drawing.Point(246, 918)
-        Me.Label17.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(77, 16)
-        Me.Label17.TabIndex = 21
-        Me.Label17.Text = "REMARKS:"
-        '
-        'Panel10
-        '
-        Me.Panel10.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Panel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel10.Controls.Add(Me.Label19)
-        Me.Panel10.Controls.Add(Me.Label18)
-        Me.Panel10.Location = New System.Drawing.Point(123, 821)
-        Me.Panel10.Name = "Panel10"
-        Me.Panel10.Size = New System.Drawing.Size(200, 23)
-        Me.Panel10.TabIndex = 24
-        '
-        'TextBox6
-        '
-        Me.TextBox6.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox6.Location = New System.Drawing.Point(1618, 821)
-        Me.TextBox6.Margin = New System.Windows.Forms.Padding(2)
-        Me.TextBox6.Multiline = True
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(154, 69)
-        Me.TextBox6.TabIndex = 22
-        '
-        'Panel13
-        '
-        Me.Panel13.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Panel13.BackColor = System.Drawing.SystemColors.HighlightText
-        Me.Panel13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel13.Controls.Add(Me.Label23)
-        Me.Panel13.Controls.Add(Me.Label22)
-        Me.Panel13.Location = New System.Drawing.Point(1618, 777)
-        Me.Panel13.Name = "Panel13"
-        Me.Panel13.Size = New System.Drawing.Size(154, 45)
-        Me.Panel13.TabIndex = 27
-        '
-        'TextBox5
-        '
-        Me.TextBox5.Location = New System.Drawing.Point(323, 909)
-        Me.TextBox5.Margin = New System.Windows.Forms.Padding(2)
-        Me.TextBox5.Multiline = True
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(1031, 25)
-        Me.TextBox5.TabIndex = 28
-        '
-        'Panel11
-        '
-        Me.Panel11.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Panel11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel11.Controls.Add(Me.Label20)
-        Me.Panel11.Location = New System.Drawing.Point(123, 844)
-        Me.Panel11.Name = "Panel11"
-        Me.Panel11.Size = New System.Drawing.Size(200, 23)
-        Me.Panel11.TabIndex = 25
-        '
-        'Panel12
-        '
-        Me.Panel12.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Panel12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel12.Controls.Add(Me.Label21)
-        Me.Panel12.Location = New System.Drawing.Point(123, 863)
-        Me.Panel12.Name = "Panel12"
-        Me.Panel12.Size = New System.Drawing.Size(200, 27)
-        Me.Panel12.TabIndex = 26
-        '
-        'Label18
-        '
-        Me.Label18.AutoSize = True
-        Me.Label18.Location = New System.Drawing.Point(60, 6)
-        Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(83, 13)
-        Me.Label18.TabIndex = 0
-        Me.Label18.Text = "Previous Output"
-        '
-        'Label19
-        '
-        Me.Label19.AutoSize = True
-        Me.Label19.Location = New System.Drawing.Point(58, 4)
-        Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(83, 13)
-        Me.Label19.TabIndex = 1
-        Me.Label19.Text = "Previous Output"
-        '
-        'Label20
-        '
-        Me.Label20.AutoSize = True
-        Me.Label20.Location = New System.Drawing.Point(60, 2)
-        Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(76, 13)
-        Me.Label20.TabIndex = 2
-        Me.Label20.Text = "Current Output"
-        '
-        'Label21
-        '
-        Me.Label21.AutoSize = True
-        Me.Label21.Location = New System.Drawing.Point(82, 6)
-        Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(31, 13)
-        Me.Label21.TabIndex = 3
-        Me.Label21.Text = "Total"
-        '
-        'Panel14
-        '
-        Me.Panel14.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Panel14.BackColor = System.Drawing.SystemColors.HighlightText
-        Me.Panel14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel14.Controls.Add(Me.Label24)
-        Me.Panel14.Location = New System.Drawing.Point(323, 777)
-        Me.Panel14.Name = "Panel14"
-        Me.Panel14.Size = New System.Drawing.Size(547, 24)
-        Me.Panel14.TabIndex = 28
-        '
-        'Panel15
-        '
-        Me.Panel15.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Panel15.BackColor = System.Drawing.SystemColors.HighlightText
-        Me.Panel15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel15.Controls.Add(Me.Label25)
-        Me.Panel15.Location = New System.Drawing.Point(869, 777)
-        Me.Panel15.Name = "Panel15"
-        Me.Panel15.Size = New System.Drawing.Size(501, 24)
-        Me.Panel15.TabIndex = 29
-        '
-        'Panel16
-        '
-        Me.Panel16.BackColor = System.Drawing.SystemColors.HighlightText
-        Me.Panel16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel16.Controls.Add(Me.Label26)
-        Me.Panel16.Location = New System.Drawing.Point(1368, 777)
-        Me.Panel16.Name = "Panel16"
-        Me.Panel16.Size = New System.Drawing.Size(251, 24)
-        Me.Panel16.TabIndex = 30
-        '
-        'Label22
-        '
-        Me.Label22.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label22.AutoSize = True
-        Me.Label22.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label22.Location = New System.Drawing.Point(6, 9)
-        Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(137, 13)
-        Me.Label22.TabIndex = 0
-        Me.Label22.Text = "ACKNOWLEDGEMENT"
-        '
-        'Label23
-        '
-        Me.Label23.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label23.AutoSize = True
-        Me.Label23.Location = New System.Drawing.Point(12, 22)
-        Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(126, 13)
-        Me.Label23.TabIndex = 1
-        Me.Label23.Text = "(next process Supervisor)"
-        '
-        'Label24
-        '
-        Me.Label24.AutoSize = True
-        Me.Label24.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label24.Location = New System.Drawing.Point(238, 6)
-        Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(96, 13)
-        Me.Label24.TabIndex = 0
-        Me.Label24.Text = "GOOD SHEETS"
-        '
-        'Label25
-        '
-        Me.Label25.AutoSize = True
-        Me.Label25.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label25.Location = New System.Drawing.Point(219, 6)
-        Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(62, 13)
-        Me.Label25.TabIndex = 1
-        Me.Label25.Text = "RED TAG"
-        '
-        'Label26
-        '
-        Me.Label26.AutoSize = True
-        Me.Label26.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label26.Location = New System.Drawing.Point(88, 6)
-        Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(68, 13)
-        Me.Label26.TabIndex = 2
-        Me.Label26.Text = "SPOILAGE"
-        '
         'DGV_PalletNo1
         '
         DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
@@ -769,6 +572,204 @@ Partial Class MonitoringChecklist
         Me.DGV_Quantity3.Name = "DGV_Quantity3"
         Me.DGV_Quantity3.Width = 250
         '
+        'Label17
+        '
+        Me.Label17.AutoSize = True
+        Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label17.Location = New System.Drawing.Point(246, 918)
+        Me.Label17.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(77, 16)
+        Me.Label17.TabIndex = 21
+        Me.Label17.Text = "REMARKS:"
+        '
+        'Panel10
+        '
+        Me.Panel10.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Panel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel10.Controls.Add(Me.Label19)
+        Me.Panel10.Controls.Add(Me.Label18)
+        Me.Panel10.Location = New System.Drawing.Point(123, 821)
+        Me.Panel10.Name = "Panel10"
+        Me.Panel10.Size = New System.Drawing.Size(200, 23)
+        Me.Panel10.TabIndex = 24
+        '
+        'Label19
+        '
+        Me.Label19.AutoSize = True
+        Me.Label19.Location = New System.Drawing.Point(58, 4)
+        Me.Label19.Name = "Label19"
+        Me.Label19.Size = New System.Drawing.Size(83, 13)
+        Me.Label19.TabIndex = 1
+        Me.Label19.Text = "Previous Output"
+        '
+        'Label18
+        '
+        Me.Label18.AutoSize = True
+        Me.Label18.Location = New System.Drawing.Point(60, 6)
+        Me.Label18.Name = "Label18"
+        Me.Label18.Size = New System.Drawing.Size(83, 13)
+        Me.Label18.TabIndex = 0
+        Me.Label18.Text = "Previous Output"
+        '
+        'TextBox6
+        '
+        Me.TextBox6.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TextBox6.Location = New System.Drawing.Point(1618, 821)
+        Me.TextBox6.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox6.Multiline = True
+        Me.TextBox6.Name = "TextBox6"
+        Me.TextBox6.Size = New System.Drawing.Size(154, 69)
+        Me.TextBox6.TabIndex = 22
+        '
+        'Panel13
+        '
+        Me.Panel13.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Panel13.BackColor = System.Drawing.SystemColors.HighlightText
+        Me.Panel13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel13.Controls.Add(Me.Label23)
+        Me.Panel13.Controls.Add(Me.Label22)
+        Me.Panel13.Location = New System.Drawing.Point(1618, 777)
+        Me.Panel13.Name = "Panel13"
+        Me.Panel13.Size = New System.Drawing.Size(154, 45)
+        Me.Panel13.TabIndex = 27
+        '
+        'Label23
+        '
+        Me.Label23.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label23.AutoSize = True
+        Me.Label23.Location = New System.Drawing.Point(12, 22)
+        Me.Label23.Name = "Label23"
+        Me.Label23.Size = New System.Drawing.Size(126, 13)
+        Me.Label23.TabIndex = 1
+        Me.Label23.Text = "(next process Supervisor)"
+        '
+        'Label22
+        '
+        Me.Label22.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label22.AutoSize = True
+        Me.Label22.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label22.Location = New System.Drawing.Point(6, 9)
+        Me.Label22.Name = "Label22"
+        Me.Label22.Size = New System.Drawing.Size(137, 13)
+        Me.Label22.TabIndex = 0
+        Me.Label22.Text = "ACKNOWLEDGEMENT"
+        '
+        'TextBox5
+        '
+        Me.TextBox5.Location = New System.Drawing.Point(323, 909)
+        Me.TextBox5.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox5.Multiline = True
+        Me.TextBox5.Name = "TextBox5"
+        Me.TextBox5.Size = New System.Drawing.Size(1031, 25)
+        Me.TextBox5.TabIndex = 28
+        '
+        'Panel11
+        '
+        Me.Panel11.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Panel11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel11.Controls.Add(Me.Label20)
+        Me.Panel11.Location = New System.Drawing.Point(123, 844)
+        Me.Panel11.Name = "Panel11"
+        Me.Panel11.Size = New System.Drawing.Size(200, 23)
+        Me.Panel11.TabIndex = 25
+        '
+        'Label20
+        '
+        Me.Label20.AutoSize = True
+        Me.Label20.Location = New System.Drawing.Point(60, 2)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(76, 13)
+        Me.Label20.TabIndex = 2
+        Me.Label20.Text = "Current Output"
+        '
+        'Panel12
+        '
+        Me.Panel12.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Panel12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel12.Controls.Add(Me.Label21)
+        Me.Panel12.Location = New System.Drawing.Point(123, 863)
+        Me.Panel12.Name = "Panel12"
+        Me.Panel12.Size = New System.Drawing.Size(200, 27)
+        Me.Panel12.TabIndex = 26
+        '
+        'Label21
+        '
+        Me.Label21.AutoSize = True
+        Me.Label21.Location = New System.Drawing.Point(82, 6)
+        Me.Label21.Name = "Label21"
+        Me.Label21.Size = New System.Drawing.Size(31, 13)
+        Me.Label21.TabIndex = 3
+        Me.Label21.Text = "Total"
+        '
+        'Panel14
+        '
+        Me.Panel14.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Panel14.BackColor = System.Drawing.SystemColors.HighlightText
+        Me.Panel14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel14.Controls.Add(Me.Label24)
+        Me.Panel14.Location = New System.Drawing.Point(323, 777)
+        Me.Panel14.Name = "Panel14"
+        Me.Panel14.Size = New System.Drawing.Size(547, 24)
+        Me.Panel14.TabIndex = 28
+        '
+        'Label24
+        '
+        Me.Label24.AutoSize = True
+        Me.Label24.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label24.Location = New System.Drawing.Point(238, 6)
+        Me.Label24.Name = "Label24"
+        Me.Label24.Size = New System.Drawing.Size(96, 13)
+        Me.Label24.TabIndex = 0
+        Me.Label24.Text = "GOOD SHEETS"
+        '
+        'Panel15
+        '
+        Me.Panel15.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Panel15.BackColor = System.Drawing.SystemColors.HighlightText
+        Me.Panel15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel15.Controls.Add(Me.Label25)
+        Me.Panel15.Location = New System.Drawing.Point(869, 777)
+        Me.Panel15.Name = "Panel15"
+        Me.Panel15.Size = New System.Drawing.Size(501, 24)
+        Me.Panel15.TabIndex = 29
+        '
+        'Label25
+        '
+        Me.Label25.AutoSize = True
+        Me.Label25.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label25.Location = New System.Drawing.Point(219, 6)
+        Me.Label25.Name = "Label25"
+        Me.Label25.Size = New System.Drawing.Size(62, 13)
+        Me.Label25.TabIndex = 1
+        Me.Label25.Text = "RED TAG"
+        '
+        'Panel16
+        '
+        Me.Panel16.BackColor = System.Drawing.SystemColors.HighlightText
+        Me.Panel16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel16.Controls.Add(Me.Label26)
+        Me.Panel16.Location = New System.Drawing.Point(1368, 777)
+        Me.Panel16.Name = "Panel16"
+        Me.Panel16.Size = New System.Drawing.Size(251, 24)
+        Me.Panel16.TabIndex = 30
+        '
+        'Label26
+        '
+        Me.Label26.AutoSize = True
+        Me.Label26.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label26.Location = New System.Drawing.Point(88, 6)
+        Me.Label26.Name = "Label26"
+        Me.Label26.Size = New System.Drawing.Size(68, 13)
+        Me.Label26.TabIndex = 2
+        Me.Label26.Text = "SPOILAGE"
+        '
         'TextBox7
         '
         Me.TextBox7.Location = New System.Drawing.Point(123, 777)
@@ -778,26 +779,75 @@ Partial Class MonitoringChecklist
         Me.TextBox7.Size = New System.Drawing.Size(200, 45)
         Me.TextBox7.TabIndex = 31
         '
-        'DGV_Time
+        'DGV_IncorrectGrainDi1
         '
-        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        Me.DGV_Time.DefaultCellStyle = DataGridViewCellStyle1
-        Me.DGV_Time.HeaderText = "TIME"
-        Me.DGV_Time.Name = "DGV_Time"
+        Me.DGV_IncorrectGrainDi1.HeaderText = "Incorrect Grain Direction"
+        Me.DGV_IncorrectGrainDi1.Name = "DGV_IncorrectGrainDi1"
+        Me.DGV_IncorrectGrainDi1.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DGV_IncorrectGrainDi1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
         '
-        'DGV_CuttingBladeSharp
+        'DGV_TearOff1
         '
-        Me.DGV_CuttingBladeSharp.HeaderText = "Cutting Blade Sharpness "
-        Me.DGV_CuttingBladeSharp.Name = "DGV_CuttingBladeSharp"
-        Me.DGV_CuttingBladeSharp.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DGV_CuttingBladeSharp.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.DGV_TearOff1.HeaderText = "Tear-off (Punit/Kayod)"
+        Me.DGV_TearOff1.Name = "DGV_TearOff1"
         '
-        'DGV_CuttingBladeCon
+        'DGV_IncorectDi1
         '
-        Me.DGV_CuttingBladeCon.HeaderText = "Cutting Blade condition"
-        Me.DGV_CuttingBladeCon.Name = "DGV_CuttingBladeCon"
-        Me.DGV_CuttingBladeCon.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DGV_CuttingBladeCon.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.DGV_IncorectDi1.HeaderText = "Incorrect Dimension"
+        Me.DGV_IncorectDi1.Name = "DGV_IncorectDi1"
+        '
+        'DGV_OffSquare1
+        '
+        Me.DGV_OffSquare1.HeaderText = "Off-square (Torsido\Sisid)"
+        Me.DGV_OffSquare1.Name = "DGV_OffSquare1"
+        '
+        'DGV_LooseFiber1
+        '
+        Me.DGV_LooseFiber1.HeaderText = "Loose Fiber (Mahimulmol)"
+        Me.DGV_LooseFiber1.Name = "DGV_LooseFiber1"
+        '
+        'DGV_CuttingBladeCon1
+        '
+        Me.DGV_CuttingBladeCon1.HeaderText = "Cutting Blade Condition"
+        Me.DGV_CuttingBladeCon1.Name = "DGV_CuttingBladeCon1"
+        Me.DGV_CuttingBladeCon1.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DGV_CuttingBladeCon1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        '
+        'DGV_CuttingBladeSharp1
+        '
+        Me.DGV_CuttingBladeSharp1.HeaderText = "Cutting Blade Sharpness"
+        Me.DGV_CuttingBladeSharp1.Name = "DGV_CuttingBladeSharp1"
+        '
+        'DGV_TIME2
+        '
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.DGV_TIME2.DefaultCellStyle = DataGridViewCellStyle3
+        Me.DGV_TIME2.HeaderText = "TIME"
+        Me.DGV_TIME2.Name = "DGV_TIME2"
+        '
+        'DGV_IncorrectGrain
+        '
+        Me.DGV_IncorrectGrain.HeaderText = "Incorrect Grain Direction"
+        Me.DGV_IncorrectGrain.Name = "DGV_IncorrectGrain"
+        '
+        'DGV_TearOff
+        '
+        Me.DGV_TearOff.HeaderText = "Tear-off (Punit/Kayod)"
+        Me.DGV_TearOff.Name = "DGV_TearOff"
+        Me.DGV_TearOff.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DGV_TearOff.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        '
+        'DBV_IncorrectDi
+        '
+        Me.DBV_IncorrectDi.HeaderText = "Incorrect Dimension"
+        Me.DBV_IncorrectDi.Name = "DBV_IncorrectDi"
+        Me.DBV_IncorrectDi.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DBV_IncorrectDi.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        '
+        'DGV_OffSquare
+        '
+        Me.DGV_OffSquare.HeaderText = "Off-square (Torsido/Sisid)"
+        Me.DGV_OffSquare.Name = "DGV_OffSquare"
         '
         'DGV_LooseFi
         '
@@ -808,75 +858,26 @@ Partial Class MonitoringChecklist
         Me.DGV_LooseFi.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
         Me.DGV_LooseFi.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
         '
-        'DGV_OffSquare
+        'DGV_CuttingBladeCon
         '
-        Me.DGV_OffSquare.HeaderText = "Off-square (Torsido/Sisid)"
-        Me.DGV_OffSquare.Name = "DGV_OffSquare"
+        Me.DGV_CuttingBladeCon.HeaderText = "Cutting Blade condition"
+        Me.DGV_CuttingBladeCon.Name = "DGV_CuttingBladeCon"
+        Me.DGV_CuttingBladeCon.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DGV_CuttingBladeCon.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
         '
-        'DBV_IncorrectDi
+        'DGV_CuttingBladeSharp
         '
-        Me.DBV_IncorrectDi.HeaderText = "Incorrect Dimension"
-        Me.DBV_IncorrectDi.Name = "DBV_IncorrectDi"
-        Me.DBV_IncorrectDi.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DBV_IncorrectDi.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.DGV_CuttingBladeSharp.HeaderText = "Cutting Blade Sharpness "
+        Me.DGV_CuttingBladeSharp.Name = "DGV_CuttingBladeSharp"
+        Me.DGV_CuttingBladeSharp.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DGV_CuttingBladeSharp.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
         '
-        'DGV_TearOff
+        'DGV_Time
         '
-        Me.DGV_TearOff.HeaderText = "Tear-off (Punit/Kayod)"
-        Me.DGV_TearOff.Name = "DGV_TearOff"
-        Me.DGV_TearOff.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DGV_TearOff.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
-        '
-        'DGV_IncorrectGrain
-        '
-        Me.DGV_IncorrectGrain.HeaderText = "Incorrect Grain Direction"
-        Me.DGV_IncorrectGrain.Name = "DGV_IncorrectGrain"
-        '
-        'DGV_TIME2
-        '
-        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        Me.DGV_TIME2.DefaultCellStyle = DataGridViewCellStyle3
-        Me.DGV_TIME2.HeaderText = "TIME"
-        Me.DGV_TIME2.Name = "DGV_TIME2"
-        '
-        'DGV_CuttingBladeSharp1
-        '
-        Me.DGV_CuttingBladeSharp1.HeaderText = "Cutting Blade Sharpness"
-        Me.DGV_CuttingBladeSharp1.Name = "DGV_CuttingBladeSharp1"
-        '
-        'DGV_CuttingBladeCon1
-        '
-        Me.DGV_CuttingBladeCon1.HeaderText = "Cutting Blade Condition"
-        Me.DGV_CuttingBladeCon1.Name = "DGV_CuttingBladeCon1"
-        Me.DGV_CuttingBladeCon1.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DGV_CuttingBladeCon1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
-        '
-        'DGV_LooseFiber1
-        '
-        Me.DGV_LooseFiber1.HeaderText = "Loose Fiber (Mahimulmol)"
-        Me.DGV_LooseFiber1.Name = "DGV_LooseFiber1"
-        '
-        'DGV_OffSquare1
-        '
-        Me.DGV_OffSquare1.HeaderText = "Off-square (Torsido\Sisid)"
-        Me.DGV_OffSquare1.Name = "DGV_OffSquare1"
-        '
-        'DGV_IncorectDi1
-        '
-        Me.DGV_IncorectDi1.HeaderText = "Incorrect Dimension"
-        Me.DGV_IncorectDi1.Name = "DGV_IncorectDi1"
-        '
-        'DGV_TearOff1
-        '
-        Me.DGV_TearOff1.HeaderText = "Tear-off (Punit/Kayod)"
-        Me.DGV_TearOff1.Name = "DGV_TearOff1"
-        '
-        'DGV_IncorrectGrainDi1
-        '
-        Me.DGV_IncorrectGrainDi1.HeaderText = "Incorrect Grain Direction"
-        Me.DGV_IncorrectGrainDi1.Name = "DGV_IncorrectGrainDi1"
-        Me.DGV_IncorrectGrainDi1.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DGV_IncorrectGrainDi1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.DGV_Time.DefaultCellStyle = DataGridViewCellStyle1
+        Me.DGV_Time.HeaderText = "TIME"
+        Me.DGV_Time.Name = "DGV_Time"
         '
         'MonitoringChecklist
         '

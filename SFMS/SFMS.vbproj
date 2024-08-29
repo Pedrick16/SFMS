@@ -72,17 +72,23 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MonitoringChecklist.Designer.vb">
-      <DependentUpon>MonitoringChecklist.vb</DependentUpon>
+    <Compile Include="FRM_MonitoringChecklistSupervisor.Designer.vb">
+      <DependentUpon>FRM_MonitoringChecklistSupervisor.vb</DependentUpon>
     </Compile>
-    <Compile Include="MonitoringChecklist.vb">
+    <Compile Include="FRM_MonitoringChecklistSupervisor.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ProcessJob.vb">
+    <Compile Include="FRM_MonitoringChecklistOperator.Designer.vb">
+      <DependentUpon>FRM_MonitoringChecklistOperator.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_MonitoringChecklistOperator.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ProcessJob.Designer.vb">
-      <DependentUpon>ProcessJob.vb</DependentUpon>
+    <Compile Include="FRM_ProcessJob.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_ProcessJob.Designer.vb">
+      <DependentUpon>FRM_ProcessJob.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -102,11 +108,14 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="MonitoringChecklist.resx">
-      <DependentUpon>MonitoringChecklist.vb</DependentUpon>
+    <EmbeddedResource Include="FRM_MonitoringChecklistSupervisor.resx">
+      <DependentUpon>FRM_MonitoringChecklistSupervisor.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ProcessJob.resx">
-      <DependentUpon>ProcessJob.vb</DependentUpon>
+    <EmbeddedResource Include="FRM_MonitoringChecklistOperator.resx">
+      <DependentUpon>FRM_MonitoringChecklistOperator.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_ProcessJob.resx">
+      <DependentUpon>FRM_ProcessJob.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -126,6 +135,9 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\supervisor.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

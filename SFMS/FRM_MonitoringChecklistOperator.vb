@@ -1,4 +1,4 @@
-﻿Public Class MonitoringChecklist
+﻿Public Class FRM_MonitoringChecklistOperator
     Private Sub MonitoringChecklist_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
         DataGridView1.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter
@@ -17,10 +17,6 @@
         DataGridView1.Rows.Add("05:00", "", "", "", "", "", "", "", "05:30")
         DataGridView1.Rows.Add("06:00", "", "", "", "", "", "", "", "06:30")
 
-
     End Sub
 
-    Private Sub TextBox6_TextChanged(sender As Object, e As EventArgs) Handles TextBox6.TextChanged
-
-    End Sub
 End Class
