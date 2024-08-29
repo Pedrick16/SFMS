@@ -72,6 +72,18 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FRM_MonitoringChecklistNxtProcessSV.Designer.vb">
+      <DependentUpon>FRM_MonitoringChecklistNxtProcessSV.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_MonitoringChecklistNxtProcessSV.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_MonitoringChecklistSuperIntendent.Designer.vb">
+      <DependentUpon>FRM_MonitoringChecklistSuperIntendent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_MonitoringChecklistSuperIntendent.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FRM_MonitoringChecklistSupervisor.Designer.vb">
       <DependentUpon>FRM_MonitoringChecklistSupervisor.vb</DependentUpon>
     </Compile>
@@ -108,6 +120,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="FRM_MonitoringChecklistNxtProcessSV.resx">
+      <DependentUpon>FRM_MonitoringChecklistNxtProcessSV.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_MonitoringChecklistSuperIntendent.resx">
+      <DependentUpon>FRM_MonitoringChecklistSuperIntendent.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FRM_MonitoringChecklistSupervisor.resx">
       <DependentUpon>FRM_MonitoringChecklistSupervisor.vb</DependentUpon>
     </EmbeddedResource>

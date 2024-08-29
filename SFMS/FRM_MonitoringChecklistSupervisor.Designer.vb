@@ -24,6 +24,8 @@ Partial Class FRM_MonitoringChecklistSupervisor
     Private Sub InitializeComponent()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Label37 = New System.Windows.Forms.Label()
+        Me.Label36 = New System.Windows.Forms.Label()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
@@ -81,10 +83,10 @@ Partial Class FRM_MonitoringChecklistSupervisor
         Me.Label21 = New System.Windows.Forms.Label()
         Me.Button7 = New System.Windows.Forms.Button()
         Me.Panel4 = New System.Windows.Forms.Panel()
-        Me.Label23 = New System.Windows.Forms.Label()
-        Me.Label22 = New System.Windows.Forms.Label()
-        Me.Label24 = New System.Windows.Forms.Label()
         Me.Label25 = New System.Windows.Forms.Label()
+        Me.Label24 = New System.Windows.Forms.Label()
+        Me.Label22 = New System.Windows.Forms.Label()
+        Me.Label23 = New System.Windows.Forms.Label()
         Me.Label26 = New System.Windows.Forms.Label()
         Me.Panel5 = New System.Windows.Forms.Panel()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
@@ -108,8 +110,6 @@ Partial Class FRM_MonitoringChecklistSupervisor
         Me.Label34 = New System.Windows.Forms.Label()
         Me.CheckBox33 = New System.Windows.Forms.CheckBox()
         Me.Label35 = New System.Windows.Forms.Label()
-        Me.Label36 = New System.Windows.Forms.Label()
-        Me.Label37 = New System.Windows.Forms.Label()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.Panel6 = New System.Windows.Forms.Panel()
         Me.Panel7 = New System.Windows.Forms.Panel()
@@ -145,6 +145,28 @@ Partial Class FRM_MonitoringChecklistSupervisor
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(1871, 84)
         Me.Panel1.TabIndex = 3
+        '
+        'Label37
+        '
+        Me.Label37.AutoSize = True
+        Me.Label37.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label37.ForeColor = System.Drawing.Color.White
+        Me.Label37.Location = New System.Drawing.Point(1678, 27)
+        Me.Label37.Name = "Label37"
+        Me.Label37.Size = New System.Drawing.Size(166, 19)
+        Me.Label37.TabIndex = 4
+        Me.Label37.Text = "Pedrick DIvinagracia"
+        '
+        'Label36
+        '
+        Me.Label36.AutoSize = True
+        Me.Label36.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label36.ForeColor = System.Drawing.Color.White
+        Me.Label36.Location = New System.Drawing.Point(1582, 27)
+        Me.Label36.Name = "Label36"
+        Me.Label36.Size = New System.Drawing.Size(79, 19)
+        Me.Label36.TabIndex = 3
+        Me.Label36.Text = "PPR1048"
         '
         'Button5
         '
@@ -784,25 +806,15 @@ Partial Class FRM_MonitoringChecklistSupervisor
         Me.Panel4.Size = New System.Drawing.Size(651, 127)
         Me.Panel4.TabIndex = 55
         '
-        'Label23
+        'Label25
         '
-        Me.Label23.AutoSize = True
-        Me.Label23.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label23.Location = New System.Drawing.Point(9, 9)
-        Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(353, 17)
-        Me.Label23.TabIndex = 56
-        Me.Label23.Text = "- CUT AS PER DIMENSION AND GRAIN DIRECTION"
-        '
-        'Label22
-        '
-        Me.Label22.AutoSize = True
-        Me.Label22.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label22.Location = New System.Drawing.Point(9, 36)
-        Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(227, 17)
-        Me.Label22.TabIndex = 57
-        Me.Label22.Text = "- CUT WITH NO TORSIDO/SISID"
+        Me.Label25.AutoSize = True
+        Me.Label25.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label25.Location = New System.Drawing.Point(9, 90)
+        Me.Label25.Name = "Label25"
+        Me.Label25.Size = New System.Drawing.Size(170, 17)
+        Me.Label25.TabIndex = 59
+        Me.Label25.Text = "- FOUR SIDE TRIMMING"
         '
         'Label24
         '
@@ -814,15 +826,25 @@ Partial Class FRM_MonitoringChecklistSupervisor
         Me.Label24.TabIndex = 58
         Me.Label24.Text = "- WRAP WITH STRETCH FILM PUT PROER TAGGING"
         '
-        'Label25
+        'Label22
         '
-        Me.Label25.AutoSize = True
-        Me.Label25.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label25.Location = New System.Drawing.Point(9, 90)
-        Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(170, 17)
-        Me.Label25.TabIndex = 59
-        Me.Label25.Text = "- FOUR SIDE TRIMMING"
+        Me.Label22.AutoSize = True
+        Me.Label22.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label22.Location = New System.Drawing.Point(9, 36)
+        Me.Label22.Name = "Label22"
+        Me.Label22.Size = New System.Drawing.Size(227, 17)
+        Me.Label22.TabIndex = 57
+        Me.Label22.Text = "- CUT WITH NO TORSIDO/SISID"
+        '
+        'Label23
+        '
+        Me.Label23.AutoSize = True
+        Me.Label23.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label23.Location = New System.Drawing.Point(9, 9)
+        Me.Label23.Name = "Label23"
+        Me.Label23.Size = New System.Drawing.Size(353, 17)
+        Me.Label23.TabIndex = 56
+        Me.Label23.Text = "- CUT AS PER DIMENSION AND GRAIN DIRECTION"
         '
         'Label26
         '
@@ -1047,28 +1069,6 @@ Partial Class FRM_MonitoringChecklistSupervisor
         Me.Label35.Size = New System.Drawing.Size(153, 18)
         Me.Label35.TabIndex = 82
         Me.Label35.Text = "E. Check all ups/outs"
-        '
-        'Label36
-        '
-        Me.Label36.AutoSize = True
-        Me.Label36.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label36.ForeColor = System.Drawing.Color.White
-        Me.Label36.Location = New System.Drawing.Point(1582, 27)
-        Me.Label36.Name = "Label36"
-        Me.Label36.Size = New System.Drawing.Size(79, 19)
-        Me.Label36.TabIndex = 3
-        Me.Label36.Text = "PPR1048"
-        '
-        'Label37
-        '
-        Me.Label37.AutoSize = True
-        Me.Label37.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label37.ForeColor = System.Drawing.Color.White
-        Me.Label37.Location = New System.Drawing.Point(1678, 27)
-        Me.Label37.Name = "Label37"
-        Me.Label37.Size = New System.Drawing.Size(166, 19)
-        Me.Label37.TabIndex = 4
-        Me.Label37.Text = "Pedrick DIvinagracia"
         '
         'TextBox3
         '
