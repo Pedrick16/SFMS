@@ -336,7 +336,8 @@ Partial Class FRM_MonitoringChecklistSupervisor
         '
         'Button2
         '
-        Me.Button2.Font = New System.Drawing.Font("Arial", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.BackColor = System.Drawing.Color.White
+        Me.Button2.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.SystemColors.Highlight
         Me.Button2.Location = New System.Drawing.Point(1652, 100)
         Me.Button2.Margin = New System.Windows.Forms.Padding(2)
@@ -344,7 +345,7 @@ Partial Class FRM_MonitoringChecklistSupervisor
         Me.Button2.Size = New System.Drawing.Size(104, 33)
         Me.Button2.TabIndex = 10
         Me.Button2.Text = "SAVE"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.Button2.UseVisualStyleBackColor = False
         '
         'TextBox2
         '

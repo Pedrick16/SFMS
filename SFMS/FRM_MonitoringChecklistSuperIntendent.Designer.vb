@@ -64,8 +64,6 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
@@ -122,6 +120,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'Panel7
         '
         Me.Panel7.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.Panel7.Enabled = False
         Me.Panel7.Location = New System.Drawing.Point(289, 618)
         Me.Panel7.Name = "Panel7"
         Me.Panel7.Size = New System.Drawing.Size(391, 46)
@@ -130,6 +129,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'Label20
         '
         Me.Label20.AutoSize = True
+        Me.Label20.Enabled = False
         Me.Label20.Font = New System.Drawing.Font("Franklin Gothic Medium", 10.8!, System.Drawing.FontStyle.Bold)
         Me.Label20.Location = New System.Drawing.Point(1177, 627)
         Me.Label20.Name = "Label20"
@@ -140,6 +140,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'Label19
         '
         Me.Label19.AutoSize = True
+        Me.Label19.Enabled = False
         Me.Label19.Font = New System.Drawing.Font("Franklin Gothic Medium", 10.8!, System.Drawing.FontStyle.Bold)
         Me.Label19.Location = New System.Drawing.Point(66, 627)
         Me.Label19.Name = "Label19"
@@ -150,6 +151,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'CheckBox20
         '
         Me.CheckBox20.AutoSize = True
+        Me.CheckBox20.Enabled = False
         Me.CheckBox20.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox20.Location = New System.Drawing.Point(1181, 566)
         Me.CheckBox20.Name = "CheckBox20"
@@ -161,6 +163,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'CheckBox24
         '
         Me.CheckBox24.AutoSize = True
+        Me.CheckBox24.Enabled = False
         Me.CheckBox24.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox24.Location = New System.Drawing.Point(833, 566)
         Me.CheckBox24.Name = "CheckBox24"
@@ -172,6 +175,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'CheckBox25
         '
         Me.CheckBox25.AutoSize = True
+        Me.CheckBox25.Enabled = False
         Me.CheckBox25.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox25.Location = New System.Drawing.Point(486, 565)
         Me.CheckBox25.Name = "CheckBox25"
@@ -183,6 +187,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'Label18
         '
         Me.Label18.AutoSize = True
+        Me.Label18.Enabled = False
         Me.Label18.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label18.Location = New System.Drawing.Point(78, 566)
         Me.Label18.Name = "Label18"
@@ -193,6 +198,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'CheckBox21
         '
         Me.CheckBox21.AutoSize = True
+        Me.CheckBox21.Enabled = False
         Me.CheckBox21.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox21.Location = New System.Drawing.Point(1182, 541)
         Me.CheckBox21.Name = "CheckBox21"
@@ -204,6 +210,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'CheckBox22
         '
         Me.CheckBox22.AutoSize = True
+        Me.CheckBox22.Enabled = False
         Me.CheckBox22.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox22.Location = New System.Drawing.Point(834, 537)
         Me.CheckBox22.Name = "CheckBox22"
@@ -215,6 +222,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'CheckBox23
         '
         Me.CheckBox23.AutoSize = True
+        Me.CheckBox23.Enabled = False
         Me.CheckBox23.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox23.Location = New System.Drawing.Point(486, 536)
         Me.CheckBox23.Name = "CheckBox23"
@@ -226,6 +234,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'Label17
         '
         Me.Label17.AutoSize = True
+        Me.Label17.Enabled = False
         Me.Label17.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label17.Location = New System.Drawing.Point(78, 537)
         Me.Label17.Name = "Label17"
@@ -236,6 +245,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'CheckBox17
         '
         Me.CheckBox17.AutoSize = True
+        Me.CheckBox17.Enabled = False
         Me.CheckBox17.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox17.Location = New System.Drawing.Point(1182, 511)
         Me.CheckBox17.Name = "CheckBox17"
@@ -247,6 +257,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'CheckBox18
         '
         Me.CheckBox18.AutoSize = True
+        Me.CheckBox18.Enabled = False
         Me.CheckBox18.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox18.Location = New System.Drawing.Point(834, 511)
         Me.CheckBox18.Name = "CheckBox18"
@@ -258,6 +269,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'CheckBox19
         '
         Me.CheckBox19.AutoSize = True
+        Me.CheckBox19.Enabled = False
         Me.CheckBox19.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox19.Location = New System.Drawing.Point(486, 511)
         Me.CheckBox19.Name = "CheckBox19"
@@ -269,6 +281,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'Label16
         '
         Me.Label16.AutoSize = True
+        Me.Label16.Enabled = False
         Me.Label16.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label16.Location = New System.Drawing.Point(78, 512)
         Me.Label16.Name = "Label16"
@@ -279,6 +292,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'CheckBox10
         '
         Me.CheckBox10.AutoSize = True
+        Me.CheckBox10.Enabled = False
         Me.CheckBox10.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox10.Location = New System.Drawing.Point(1183, 484)
         Me.CheckBox10.Name = "CheckBox10"
@@ -290,6 +304,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'CheckBox11
         '
         Me.CheckBox11.AutoSize = True
+        Me.CheckBox11.Enabled = False
         Me.CheckBox11.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox11.Location = New System.Drawing.Point(835, 484)
         Me.CheckBox11.Name = "CheckBox11"
@@ -301,6 +316,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'CheckBox12
         '
         Me.CheckBox12.AutoSize = True
+        Me.CheckBox12.Enabled = False
         Me.CheckBox12.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox12.Location = New System.Drawing.Point(486, 487)
         Me.CheckBox12.Name = "CheckBox12"
@@ -312,6 +328,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'Label13
         '
         Me.Label13.AutoSize = True
+        Me.Label13.Enabled = False
         Me.Label13.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label13.Location = New System.Drawing.Point(78, 488)
         Me.Label13.Name = "Label13"
@@ -322,6 +339,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'CheckBox14
         '
         Me.CheckBox14.AutoSize = True
+        Me.CheckBox14.Enabled = False
         Me.CheckBox14.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox14.Location = New System.Drawing.Point(1182, 461)
         Me.CheckBox14.Name = "CheckBox14"
@@ -333,6 +351,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'CheckBox15
         '
         Me.CheckBox15.AutoSize = True
+        Me.CheckBox15.Enabled = False
         Me.CheckBox15.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox15.Location = New System.Drawing.Point(834, 461)
         Me.CheckBox15.Name = "CheckBox15"
@@ -344,6 +363,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'CheckBox16
         '
         Me.CheckBox16.AutoSize = True
+        Me.CheckBox16.Enabled = False
         Me.CheckBox16.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox16.Location = New System.Drawing.Point(486, 461)
         Me.CheckBox16.Name = "CheckBox16"
@@ -355,6 +375,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'Label14
         '
         Me.Label14.AutoSize = True
+        Me.Label14.Enabled = False
         Me.Label14.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label14.Location = New System.Drawing.Point(79, 461)
         Me.Label14.Name = "Label14"
@@ -365,6 +386,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'Label15
         '
         Me.Label15.AutoSize = True
+        Me.Label15.Enabled = False
         Me.Label15.Font = New System.Drawing.Font("Franklin Gothic Medium", 10.8!, System.Drawing.FontStyle.Bold)
         Me.Label15.Location = New System.Drawing.Point(48, 432)
         Me.Label15.Name = "Label15"
@@ -375,6 +397,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'CheckBox5
         '
         Me.CheckBox5.AutoSize = True
+        Me.CheckBox5.Enabled = False
         Me.CheckBox5.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox5.Location = New System.Drawing.Point(1182, 407)
         Me.CheckBox5.Name = "CheckBox5"
@@ -386,6 +409,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'CheckBox6
         '
         Me.CheckBox6.AutoSize = True
+        Me.CheckBox6.Enabled = False
         Me.CheckBox6.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox6.Location = New System.Drawing.Point(834, 407)
         Me.CheckBox6.Name = "CheckBox6"
@@ -397,6 +421,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'CheckBox7
         '
         Me.CheckBox7.AutoSize = True
+        Me.CheckBox7.Enabled = False
         Me.CheckBox7.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox7.Location = New System.Drawing.Point(486, 407)
         Me.CheckBox7.Name = "CheckBox7"
@@ -408,6 +433,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'CheckBox8
         '
         Me.CheckBox8.AutoSize = True
+        Me.CheckBox8.Enabled = False
         Me.CheckBox8.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox8.Location = New System.Drawing.Point(100, 407)
         Me.CheckBox8.Name = "CheckBox8"
@@ -419,6 +445,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'Label12
         '
         Me.Label12.AutoSize = True
+        Me.Label12.Enabled = False
         Me.Label12.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label12.Location = New System.Drawing.Point(78, 386)
         Me.Label12.Name = "Label12"
@@ -441,6 +468,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'CheckBox3
         '
         Me.CheckBox3.AutoSize = True
+        Me.CheckBox3.Enabled = False
         Me.CheckBox3.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox3.Location = New System.Drawing.Point(834, 361)
         Me.CheckBox3.Name = "CheckBox3"
@@ -452,6 +480,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'CheckBox2
         '
         Me.CheckBox2.AutoSize = True
+        Me.CheckBox2.Enabled = False
         Me.CheckBox2.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox2.Location = New System.Drawing.Point(486, 361)
         Me.CheckBox2.Name = "CheckBox2"
@@ -463,6 +492,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'CheckBox1
         '
         Me.CheckBox1.AutoSize = True
+        Me.CheckBox1.Enabled = False
         Me.CheckBox1.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox1.Location = New System.Drawing.Point(100, 361)
         Me.CheckBox1.Name = "CheckBox1"
@@ -565,8 +595,6 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel2.BackColor = System.Drawing.Color.White
         Me.Panel2.Controls.Add(Me.TextBox2)
-        Me.Panel2.Controls.Add(Me.Button2)
-        Me.Panel2.Controls.Add(Me.Button1)
         Me.Panel2.Controls.Add(Me.Label9)
         Me.Panel2.Controls.Add(Me.Label8)
         Me.Panel2.Controls.Add(Me.Label7)
@@ -583,42 +611,18 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(1554, 12)
+        Me.TextBox2.Location = New System.Drawing.Point(1548, 30)
         Me.TextBox2.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox2.Multiline = True
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(164, 25)
         Me.TextBox2.TabIndex = 12
         '
-        'Button2
-        '
-        Me.Button2.Font = New System.Drawing.Font("Arial", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Button2.Location = New System.Drawing.Point(1652, 100)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(2)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(104, 33)
-        Me.Button2.TabIndex = 10
-        Me.Button2.Text = "SAVE"
-        Me.Button2.UseVisualStyleBackColor = True
-        '
-        'Button1
-        '
-        Me.Button1.Font = New System.Drawing.Font("Arial", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Button1.Location = New System.Drawing.Point(1538, 100)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(2)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(104, 33)
-        Me.Button1.TabIndex = 9
-        Me.Button1.Text = "ADD"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
         'Label9
         '
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Franklin Gothic Medium", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(1478, 72)
+        Me.Label9.Location = New System.Drawing.Point(1472, 90)
         Me.Label9.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(57, 20)
@@ -629,7 +633,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Franklin Gothic Medium", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(1440, 44)
+        Me.Label8.Location = New System.Drawing.Point(1434, 62)
         Me.Label8.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(95, 20)
@@ -640,7 +644,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Franklin Gothic Medium", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(1472, 17)
+        Me.Label7.Location = New System.Drawing.Point(1466, 35)
         Me.Label7.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(63, 20)
@@ -651,7 +655,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Franklin Gothic Medium", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(842, 44)
+        Me.Label6.Location = New System.Drawing.Point(836, 62)
         Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(75, 20)
@@ -662,7 +666,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Franklin Gothic Medium", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(863, 17)
+        Me.Label5.Location = New System.Drawing.Point(857, 35)
         Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(52, 20)
@@ -673,7 +677,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Franklin Gothic Medium", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(110, 72)
+        Me.Label4.Location = New System.Drawing.Point(104, 90)
         Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(89, 20)
@@ -684,7 +688,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Franklin Gothic Medium", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(153, 44)
+        Me.Label1.Location = New System.Drawing.Point(147, 62)
         Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(42, 20)
@@ -695,7 +699,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Franklin Gothic Medium", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(117, 17)
+        Me.Label3.Location = New System.Drawing.Point(111, 35)
         Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(82, 20)
@@ -753,6 +757,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'CheckBox33
         '
         Me.CheckBox33.AutoSize = True
+        Me.CheckBox33.Enabled = False
         Me.CheckBox33.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox33.Location = New System.Drawing.Point(316, 1014)
         Me.CheckBox33.Name = "CheckBox33"
@@ -763,6 +768,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'Label35
         '
         Me.Label35.AutoSize = True
+        Me.Label35.Enabled = False
         Me.Label35.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label35.Location = New System.Drawing.Point(78, 1014)
         Me.Label35.Name = "Label35"
@@ -773,6 +779,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'CheckBox31
         '
         Me.CheckBox31.AutoSize = True
+        Me.CheckBox31.Enabled = False
         Me.CheckBox31.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox31.Location = New System.Drawing.Point(617, 984)
         Me.CheckBox31.Name = "CheckBox31"
@@ -784,6 +791,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'CheckBox32
         '
         Me.CheckBox32.AutoSize = True
+        Me.CheckBox32.Enabled = False
         Me.CheckBox32.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox32.Location = New System.Drawing.Point(316, 984)
         Me.CheckBox32.Name = "CheckBox32"
@@ -805,6 +813,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'CheckBox29
         '
         Me.CheckBox29.AutoSize = True
+        Me.CheckBox29.Enabled = False
         Me.CheckBox29.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox29.Location = New System.Drawing.Point(617, 956)
         Me.CheckBox29.Name = "CheckBox29"
@@ -816,6 +825,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'CheckBox30
         '
         Me.CheckBox30.AutoSize = True
+        Me.CheckBox30.Enabled = False
         Me.CheckBox30.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox30.Location = New System.Drawing.Point(316, 956)
         Me.CheckBox30.Name = "CheckBox30"
@@ -827,6 +837,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'Label33
         '
         Me.Label33.AutoSize = True
+        Me.Label33.Enabled = False
         Me.Label33.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label33.Location = New System.Drawing.Point(78, 956)
         Me.Label33.Name = "Label33"
@@ -837,6 +848,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'Label32
         '
         Me.Label32.AutoSize = True
+        Me.Label32.Enabled = False
         Me.Label32.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label32.Location = New System.Drawing.Point(483, 930)
         Me.Label32.Name = "Label32"
@@ -846,6 +858,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         '
         'TextBox5
         '
+        Me.TextBox5.Enabled = False
         Me.TextBox5.Location = New System.Drawing.Point(420, 927)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(56, 20)
@@ -854,6 +867,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'Label31
         '
         Me.Label31.AutoSize = True
+        Me.Label31.Enabled = False
         Me.Label31.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label31.Location = New System.Drawing.Point(387, 930)
         Me.Label31.Name = "Label31"
@@ -863,6 +877,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         '
         'TextBox4
         '
+        Me.TextBox4.Enabled = False
         Me.TextBox4.Location = New System.Drawing.Point(316, 927)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(56, 20)
@@ -871,6 +886,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'Label30
         '
         Me.Label30.AutoSize = True
+        Me.Label30.Enabled = False
         Me.Label30.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label30.Location = New System.Drawing.Point(78, 926)
         Me.Label30.Name = "Label30"
@@ -881,6 +897,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'CheckBox28
         '
         Me.CheckBox28.AutoSize = True
+        Me.CheckBox28.Enabled = False
         Me.CheckBox28.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox28.Location = New System.Drawing.Point(420, 898)
         Me.CheckBox28.Name = "CheckBox28"
@@ -892,6 +909,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'CheckBox27
         '
         Me.CheckBox27.AutoSize = True
+        Me.CheckBox27.Enabled = False
         Me.CheckBox27.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox27.Location = New System.Drawing.Point(316, 899)
         Me.CheckBox27.Name = "CheckBox27"
@@ -903,6 +921,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'Label29
         '
         Me.Label29.AutoSize = True
+        Me.Label29.Enabled = False
         Me.Label29.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label29.Location = New System.Drawing.Point(78, 899)
         Me.Label29.Name = "Label29"
@@ -922,6 +941,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         '
         'Button8
         '
+        Me.Button8.Enabled = False
         Me.Button8.Location = New System.Drawing.Point(1300, 753)
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(100, 26)
@@ -932,6 +952,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'ComboBox1
         '
         Me.ComboBox1.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.ComboBox1.Enabled = False
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Location = New System.Drawing.Point(1109, 757)
         Me.ComboBox1.Name = "ComboBox1"
@@ -941,6 +962,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'Label27
         '
         Me.Label27.AutoSize = True
+        Me.Label27.Enabled = False
         Me.Label27.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label27.Location = New System.Drawing.Point(1030, 761)
         Me.Label27.Name = "Label27"
@@ -952,6 +974,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         '
         Me.DataGridView1.BackgroundColor = System.Drawing.Color.Gainsboro
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView1.Enabled = False
         Me.DataGridView1.Location = New System.Drawing.Point(1110, 785)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.Size = New System.Drawing.Size(697, 63)
@@ -960,6 +983,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'Panel5
         '
         Me.Panel5.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.Panel5.Enabled = False
         Me.Panel5.Location = New System.Drawing.Point(1109, 720)
         Me.Panel5.Name = "Panel5"
         Me.Panel5.Size = New System.Drawing.Size(291, 27)
@@ -968,6 +992,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'Label26
         '
         Me.Label26.AutoSize = True
+        Me.Label26.Enabled = False
         Me.Label26.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label26.Location = New System.Drawing.Point(1007, 729)
         Me.Label26.Name = "Label26"
@@ -982,6 +1007,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         Me.Panel4.Controls.Add(Me.Label24)
         Me.Panel4.Controls.Add(Me.Label22)
         Me.Panel4.Controls.Add(Me.Label23)
+        Me.Panel4.Enabled = False
         Me.Panel4.Location = New System.Drawing.Point(70, 720)
         Me.Panel4.Name = "Panel4"
         Me.Panel4.Size = New System.Drawing.Size(651, 127)
@@ -1030,6 +1056,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'Label21
         '
         Me.Label21.AutoSize = True
+        Me.Label21.Enabled = False
         Me.Label21.Font = New System.Drawing.Font("Franklin Gothic Medium", 10.8!, System.Drawing.FontStyle.Bold)
         Me.Label21.Location = New System.Drawing.Point(48, 688)
         Me.Label21.Name = "Label21"
@@ -1040,6 +1067,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'Panel6
         '
         Me.Panel6.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.Panel6.Enabled = False
         Me.Panel6.Location = New System.Drawing.Point(1416, 618)
         Me.Panel6.Name = "Panel6"
         Me.Panel6.Size = New System.Drawing.Size(391, 46)
@@ -1048,6 +1076,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'CheckBox26
         '
         Me.CheckBox26.AutoSize = True
+        Me.CheckBox26.Enabled = False
         Me.CheckBox26.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox26.Location = New System.Drawing.Point(1516, 565)
         Me.CheckBox26.Name = "CheckBox26"
@@ -1059,6 +1088,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'CheckBox13
         '
         Me.CheckBox13.AutoSize = True
+        Me.CheckBox13.Enabled = False
         Me.CheckBox13.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox13.Location = New System.Drawing.Point(1516, 512)
         Me.CheckBox13.Name = "CheckBox13"
@@ -1070,6 +1100,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'CheckBox9
         '
         Me.CheckBox9.AutoSize = True
+        Me.CheckBox9.Enabled = False
         Me.CheckBox9.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox9.Location = New System.Drawing.Point(1516, 484)
         Me.CheckBox9.Name = "CheckBox9"
@@ -1081,6 +1112,7 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
         'Button7
         '
         Me.Button7.BackColor = System.Drawing.Color.White
+        Me.Button7.Enabled = False
         Me.Button7.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button7.ForeColor = System.Drawing.SystemColors.Highlight
         Me.Button7.Location = New System.Drawing.Point(1516, 670)
@@ -1221,8 +1253,6 @@ Partial Class FRM_MonitoringChecklistSuperIntendent
     Friend WithEvents Button3 As Button
     Friend WithEvents Panel2 As Panel
     Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button1 As Button
     Friend WithEvents Label9 As Label
     Friend WithEvents Label8 As Label
     Friend WithEvents Label7 As Label

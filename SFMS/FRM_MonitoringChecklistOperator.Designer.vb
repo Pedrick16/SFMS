@@ -22,10 +22,23 @@ Partial Class FRM_MonitoringChecklistOperator
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle17 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle9 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle10 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle11 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle12 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle13 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle14 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle15 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle16 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
@@ -87,23 +100,35 @@ Partial Class FRM_MonitoringChecklistOperator
         Me.Label25 = New System.Windows.Forms.Label()
         Me.Panel16 = New System.Windows.Forms.Panel()
         Me.Label26 = New System.Windows.Forms.Label()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
-        Me.DGV_IncorrectGrainDi1 = New System.Windows.Forms.DataGridViewComboBoxColumn()
-        Me.DGV_TearOff1 = New System.Windows.Forms.DataGridViewComboBoxColumn()
-        Me.DGV_IncorectDi1 = New System.Windows.Forms.DataGridViewComboBoxColumn()
-        Me.DGV_OffSquare1 = New System.Windows.Forms.DataGridViewComboBoxColumn()
-        Me.DGV_LooseFiber1 = New System.Windows.Forms.DataGridViewComboBoxColumn()
-        Me.DGV_CuttingBladeCon1 = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.Panel17 = New System.Windows.Forms.Panel()
+        Me.Label37 = New System.Windows.Forms.Label()
+        Me.Label36 = New System.Windows.Forms.Label()
+        Me.DGV_Time1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DGV_CuttingBladeSharp1 = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.DGV_CuttingBladeCon1 = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.DGV_LooseFi1 = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.DGV_LooseFiqty1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DGV_OffSquare1 = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.DGV_OffSquareQTY1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DBV_IncorrectDi1 = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.DBV_IncorrectDiQTY1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DGV_TearOff1 = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.DGV_TearOffQTY1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DGV_IncorrectGrain1 = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.DGV_IncorrectGrainQTY1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DGV_TIME2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DGV_IncorrectGrain = New System.Windows.Forms.DataGridViewComboBoxColumn()
-        Me.DGV_TearOff = New System.Windows.Forms.DataGridViewComboBoxColumn()
-        Me.DBV_IncorrectDi = New System.Windows.Forms.DataGridViewComboBoxColumn()
-        Me.DGV_OffSquare = New System.Windows.Forms.DataGridViewComboBoxColumn()
-        Me.DGV_LooseFi = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DGV_CuttingBladeCon = New System.Windows.Forms.DataGridViewComboBoxColumn()
-        Me.DGV_CuttingBladeSharp = New System.Windows.Forms.DataGridViewComboBoxColumn()
-        Me.DGV_Time = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DGV_CuttingBladeSharp2 = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.DGV_CuttingBladeCon2 = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.DGV_LooseFiber2 = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.DGV_LooseFiberQTY2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DGV_OffSquare2 = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.DGV_OffSquareQTY2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DGV_IncorectDi2 = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.DGV_IncorectDiQTY2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DGV_TearOff2 = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.DGV_TearOffQTY2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DGV_IncorrectGrainDi2 = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.DGV_IncorrectGrainDiQTY2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.Panel3.SuspendLayout()
@@ -127,6 +152,8 @@ Partial Class FRM_MonitoringChecklistOperator
         Me.Panel1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel1.BackColor = System.Drawing.SystemColors.Highlight
+        Me.Panel1.Controls.Add(Me.Label37)
+        Me.Panel1.Controls.Add(Me.Label36)
         Me.Panel1.Controls.Add(Me.Label2)
         Me.Panel1.Location = New System.Drawing.Point(-5, 0)
         Me.Panel1.Margin = New System.Windows.Forms.Padding(2)
@@ -191,7 +218,8 @@ Partial Class FRM_MonitoringChecklistOperator
         '
         'Button1
         '
-        Me.Button1.Font = New System.Drawing.Font("Arial", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.BackColor = System.Drawing.Color.White
+        Me.Button1.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.SystemColors.Highlight
         Me.Button1.Location = New System.Drawing.Point(1537, 94)
         Me.Button1.Margin = New System.Windows.Forms.Padding(2)
@@ -199,7 +227,7 @@ Partial Class FRM_MonitoringChecklistOperator
         Me.Button1.Size = New System.Drawing.Size(104, 33)
         Me.Button1.TabIndex = 9
         Me.Button1.Text = "ADD"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'Label9
         '
@@ -359,7 +387,7 @@ Partial Class FRM_MonitoringChecklistOperator
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.DataGridView1.BackgroundColor = System.Drawing.Color.White
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DGV_Time, Me.DGV_CuttingBladeSharp, Me.DGV_CuttingBladeCon, Me.DGV_LooseFi, Me.DGV_OffSquare, Me.DBV_IncorrectDi, Me.DGV_TearOff, Me.DGV_IncorrectGrain, Me.DGV_TIME2, Me.DGV_CuttingBladeSharp1, Me.DGV_CuttingBladeCon1, Me.DGV_LooseFiber1, Me.DGV_OffSquare1, Me.DGV_IncorectDi1, Me.DGV_TearOff1, Me.DGV_IncorrectGrainDi1})
+        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DGV_Time1, Me.DGV_CuttingBladeSharp1, Me.DGV_CuttingBladeCon1, Me.DGV_LooseFi1, Me.DGV_LooseFiqty1, Me.DGV_OffSquare1, Me.DGV_OffSquareQTY1, Me.DBV_IncorrectDi1, Me.DBV_IncorrectDiQTY1, Me.DGV_TearOff1, Me.DGV_TearOffQTY1, Me.DGV_IncorrectGrain1, Me.DGV_IncorrectGrainQTY1, Me.DGV_TIME2, Me.DGV_CuttingBladeSharp2, Me.DGV_CuttingBladeCon2, Me.DGV_LooseFiber2, Me.DGV_LooseFiberQTY2, Me.DGV_OffSquare2, Me.DGV_OffSquareQTY2, Me.DGV_IncorectDi2, Me.DGV_IncorectDiQTY2, Me.DGV_TearOff2, Me.DGV_TearOffQTY2, Me.DGV_IncorrectGrainDi2, Me.DGV_IncorrectGrainDiQTY2})
         Me.DataGridView1.GridColor = System.Drawing.SystemColors.ControlLight
         Me.DataGridView1.Location = New System.Drawing.Point(123, 367)
         Me.DataGridView1.Margin = New System.Windows.Forms.Padding(2)
@@ -373,9 +401,9 @@ Partial Class FRM_MonitoringChecklistOperator
         Me.Panel4.BackColor = System.Drawing.Color.White
         Me.Panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel4.Controls.Add(Me.Label10)
-        Me.Panel4.Location = New System.Drawing.Point(465, 321)
+        Me.Panel4.Location = New System.Drawing.Point(414, 321)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(500, 46)
+        Me.Panel4.Size = New System.Drawing.Size(551, 46)
         Me.Panel4.TabIndex = 4
         '
         'Label10
@@ -393,9 +421,9 @@ Partial Class FRM_MonitoringChecklistOperator
         Me.Panel5.BackColor = System.Drawing.Color.White
         Me.Panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel5.Controls.Add(Me.Label11)
-        Me.Panel5.Location = New System.Drawing.Point(264, 321)
+        Me.Panel5.Location = New System.Drawing.Point(209, 321)
         Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(202, 46)
+        Me.Panel5.Size = New System.Drawing.Size(208, 46)
         Me.Panel5.TabIndex = 5
         '
         'Label11
@@ -414,7 +442,7 @@ Partial Class FRM_MonitoringChecklistOperator
         Me.Panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel6.Location = New System.Drawing.Point(123, 321)
         Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(144, 46)
+        Me.Panel6.Size = New System.Drawing.Size(93, 46)
         Me.Panel6.TabIndex = 6
         '
         'Panel7
@@ -542,8 +570,8 @@ Partial Class FRM_MonitoringChecklistOperator
         '
         'DGV_PalletNo1
         '
-        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        Me.DGV_PalletNo1.DefaultCellStyle = DataGridViewCellStyle4
+        DataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.DGV_PalletNo1.DefaultCellStyle = DataGridViewCellStyle17
         Me.DGV_PalletNo1.HeaderText = "PALLET #"
         Me.DGV_PalletNo1.Name = "DGV_PalletNo1"
         Me.DGV_PalletNo1.Width = 255
@@ -770,123 +798,262 @@ Partial Class FRM_MonitoringChecklistOperator
         Me.Label26.TabIndex = 2
         Me.Label26.Text = "SPOILAGE"
         '
-        'TextBox7
+        'Panel17
         '
-        Me.TextBox7.Location = New System.Drawing.Point(123, 777)
-        Me.TextBox7.Margin = New System.Windows.Forms.Padding(2)
-        Me.TextBox7.Multiline = True
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(200, 45)
-        Me.TextBox7.TabIndex = 31
+        Me.Panel17.BackColor = System.Drawing.Color.White
+        Me.Panel17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel17.Location = New System.Drawing.Point(123, 777)
+        Me.Panel17.Name = "Panel17"
+        Me.Panel17.Size = New System.Drawing.Size(200, 45)
+        Me.Panel17.TabIndex = 31
         '
-        'DGV_IncorrectGrainDi1
+        'Label37
         '
-        Me.DGV_IncorrectGrainDi1.HeaderText = "Incorrect Grain Direction"
-        Me.DGV_IncorrectGrainDi1.Name = "DGV_IncorrectGrainDi1"
-        Me.DGV_IncorrectGrainDi1.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DGV_IncorrectGrainDi1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.Label37.AutoSize = True
+        Me.Label37.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label37.ForeColor = System.Drawing.Color.White
+        Me.Label37.Location = New System.Drawing.Point(1668, 35)
+        Me.Label37.Name = "Label37"
+        Me.Label37.Size = New System.Drawing.Size(166, 19)
+        Me.Label37.TabIndex = 6
+        Me.Label37.Text = "Pedrick DIvinagracia"
         '
-        'DGV_TearOff1
+        'Label36
         '
-        Me.DGV_TearOff1.HeaderText = "Tear-off (Punit/Kayod)"
-        Me.DGV_TearOff1.Name = "DGV_TearOff1"
+        Me.Label36.AutoSize = True
+        Me.Label36.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label36.ForeColor = System.Drawing.Color.White
+        Me.Label36.Location = New System.Drawing.Point(1572, 35)
+        Me.Label36.Name = "Label36"
+        Me.Label36.Size = New System.Drawing.Size(79, 19)
+        Me.Label36.TabIndex = 5
+        Me.Label36.Text = "PPR1048"
         '
-        'DGV_IncorectDi1
+        'DGV_Time1
         '
-        Me.DGV_IncorectDi1.HeaderText = "Incorrect Dimension"
-        Me.DGV_IncorectDi1.Name = "DGV_IncorectDi1"
+        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.DGV_Time1.DefaultCellStyle = DataGridViewCellStyle1
+        Me.DGV_Time1.HeaderText = "TIME"
+        Me.DGV_Time1.Name = "DGV_Time1"
+        Me.DGV_Time1.Width = 50
         '
-        'DGV_OffSquare1
+        'DGV_CuttingBladeSharp1
         '
-        Me.DGV_OffSquare1.HeaderText = "Off-square (Torsido\Sisid)"
-        Me.DGV_OffSquare1.Name = "DGV_OffSquare1"
-        '
-        'DGV_LooseFiber1
-        '
-        Me.DGV_LooseFiber1.HeaderText = "Loose Fiber (Mahimulmol)"
-        Me.DGV_LooseFiber1.Name = "DGV_LooseFiber1"
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.DGV_CuttingBladeSharp1.DefaultCellStyle = DataGridViewCellStyle2
+        Me.DGV_CuttingBladeSharp1.DropDownWidth = 100
+        Me.DGV_CuttingBladeSharp1.FillWeight = 10.0!
+        Me.DGV_CuttingBladeSharp1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.DGV_CuttingBladeSharp1.HeaderText = "Cutting Blade Sharpness "
+        Me.DGV_CuttingBladeSharp1.Items.AddRange(New Object() {"✓", "X", "N/A"})
+        Me.DGV_CuttingBladeSharp1.Name = "DGV_CuttingBladeSharp1"
+        Me.DGV_CuttingBladeSharp1.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DGV_CuttingBladeSharp1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
         '
         'DGV_CuttingBladeCon1
         '
-        Me.DGV_CuttingBladeCon1.HeaderText = "Cutting Blade Condition"
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.DGV_CuttingBladeCon1.DefaultCellStyle = DataGridViewCellStyle3
+        Me.DGV_CuttingBladeCon1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.DGV_CuttingBladeCon1.HeaderText = "Cutting Blade condition"
+        Me.DGV_CuttingBladeCon1.Items.AddRange(New Object() {"✓", "X", "N/A"})
         Me.DGV_CuttingBladeCon1.Name = "DGV_CuttingBladeCon1"
         Me.DGV_CuttingBladeCon1.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
         Me.DGV_CuttingBladeCon1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
         '
-        'DGV_CuttingBladeSharp1
+        'DGV_LooseFi1
         '
-        Me.DGV_CuttingBladeSharp1.HeaderText = "Cutting Blade Sharpness"
-        Me.DGV_CuttingBladeSharp1.Name = "DGV_CuttingBladeSharp1"
+        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.DGV_LooseFi1.DefaultCellStyle = DataGridViewCellStyle4
+        Me.DGV_LooseFi1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.DGV_LooseFi1.HeaderText = "Loose Fiber (Mahimulmol)"
+        Me.DGV_LooseFi1.Items.AddRange(New Object() {"✓", "X", "N/A"})
+        Me.DGV_LooseFi1.Name = "DGV_LooseFi1"
+        Me.DGV_LooseFi1.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        '
+        'DGV_LooseFiqty1
+        '
+        Me.DGV_LooseFiqty1.HeaderText = "QTY"
+        Me.DGV_LooseFiqty1.Name = "DGV_LooseFiqty1"
+        Me.DGV_LooseFiqty1.Width = 60
+        '
+        'DGV_OffSquare1
+        '
+        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.DGV_OffSquare1.DefaultCellStyle = DataGridViewCellStyle5
+        Me.DGV_OffSquare1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.DGV_OffSquare1.HeaderText = "Off-square (Torsido/Sisid)"
+        Me.DGV_OffSquare1.Items.AddRange(New Object() {"✓", "X", "N/A"})
+        Me.DGV_OffSquare1.Name = "DGV_OffSquare1"
+        '
+        'DGV_OffSquareQTY1
+        '
+        Me.DGV_OffSquareQTY1.HeaderText = "QTY"
+        Me.DGV_OffSquareQTY1.Name = "DGV_OffSquareQTY1"
+        Me.DGV_OffSquareQTY1.Width = 60
+        '
+        'DBV_IncorrectDi1
+        '
+        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.DBV_IncorrectDi1.DefaultCellStyle = DataGridViewCellStyle6
+        Me.DBV_IncorrectDi1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.DBV_IncorrectDi1.HeaderText = "Incorrect Dimension"
+        Me.DBV_IncorrectDi1.Items.AddRange(New Object() {"✓", "X", "N/A"})
+        Me.DBV_IncorrectDi1.Name = "DBV_IncorrectDi1"
+        Me.DBV_IncorrectDi1.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DBV_IncorrectDi1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        '
+        'DBV_IncorrectDiQTY1
+        '
+        Me.DBV_IncorrectDiQTY1.HeaderText = "QTY"
+        Me.DBV_IncorrectDiQTY1.Name = "DBV_IncorrectDiQTY1"
+        Me.DBV_IncorrectDiQTY1.Width = 60
+        '
+        'DGV_TearOff1
+        '
+        DataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.DGV_TearOff1.DefaultCellStyle = DataGridViewCellStyle7
+        Me.DGV_TearOff1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.DGV_TearOff1.HeaderText = "Tear-off (Punit/Kayod)"
+        Me.DGV_TearOff1.Items.AddRange(New Object() {"✓", "X", "N/A"})
+        Me.DGV_TearOff1.Name = "DGV_TearOff1"
+        Me.DGV_TearOff1.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DGV_TearOff1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        '
+        'DGV_TearOffQTY1
+        '
+        Me.DGV_TearOffQTY1.HeaderText = "QTY"
+        Me.DGV_TearOffQTY1.Name = "DGV_TearOffQTY1"
+        Me.DGV_TearOffQTY1.Width = 60
+        '
+        'DGV_IncorrectGrain1
+        '
+        DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.DGV_IncorrectGrain1.DefaultCellStyle = DataGridViewCellStyle8
+        Me.DGV_IncorrectGrain1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.DGV_IncorrectGrain1.HeaderText = "Incorrect Grain Direction"
+        Me.DGV_IncorrectGrain1.Items.AddRange(New Object() {"✓", "X", "N/A"})
+        Me.DGV_IncorrectGrain1.Name = "DGV_IncorrectGrain1"
+        '
+        'DGV_IncorrectGrainQTY1
+        '
+        Me.DGV_IncorrectGrainQTY1.HeaderText = "QTY"
+        Me.DGV_IncorrectGrainQTY1.Name = "DGV_IncorrectGrainQTY1"
+        Me.DGV_IncorrectGrainQTY1.Width = 60
         '
         'DGV_TIME2
         '
-        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        Me.DGV_TIME2.DefaultCellStyle = DataGridViewCellStyle3
+        DataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.DGV_TIME2.DefaultCellStyle = DataGridViewCellStyle9
         Me.DGV_TIME2.HeaderText = "TIME"
         Me.DGV_TIME2.Name = "DGV_TIME2"
+        Me.DGV_TIME2.Width = 50
         '
-        'DGV_IncorrectGrain
+        'DGV_CuttingBladeSharp2
         '
-        Me.DGV_IncorrectGrain.HeaderText = "Incorrect Grain Direction"
-        Me.DGV_IncorrectGrain.Name = "DGV_IncorrectGrain"
+        DataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.DGV_CuttingBladeSharp2.DefaultCellStyle = DataGridViewCellStyle10
+        Me.DGV_CuttingBladeSharp2.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.DGV_CuttingBladeSharp2.HeaderText = "Cutting Blade Sharpness"
+        Me.DGV_CuttingBladeSharp2.Items.AddRange(New Object() {"✓", "X", "N/A"})
+        Me.DGV_CuttingBladeSharp2.Name = "DGV_CuttingBladeSharp2"
         '
-        'DGV_TearOff
+        'DGV_CuttingBladeCon2
         '
-        Me.DGV_TearOff.HeaderText = "Tear-off (Punit/Kayod)"
-        Me.DGV_TearOff.Name = "DGV_TearOff"
-        Me.DGV_TearOff.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DGV_TearOff.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        DataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.DGV_CuttingBladeCon2.DefaultCellStyle = DataGridViewCellStyle11
+        Me.DGV_CuttingBladeCon2.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.DGV_CuttingBladeCon2.HeaderText = "Cutting Blade Condition"
+        Me.DGV_CuttingBladeCon2.Items.AddRange(New Object() {"✓", "X", "N/A"})
+        Me.DGV_CuttingBladeCon2.Name = "DGV_CuttingBladeCon2"
+        Me.DGV_CuttingBladeCon2.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DGV_CuttingBladeCon2.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
         '
-        'DBV_IncorrectDi
+        'DGV_LooseFiber2
         '
-        Me.DBV_IncorrectDi.HeaderText = "Incorrect Dimension"
-        Me.DBV_IncorrectDi.Name = "DBV_IncorrectDi"
-        Me.DBV_IncorrectDi.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DBV_IncorrectDi.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        DataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.DGV_LooseFiber2.DefaultCellStyle = DataGridViewCellStyle12
+        Me.DGV_LooseFiber2.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.DGV_LooseFiber2.HeaderText = "Loose Fiber (Mahimulmol)"
+        Me.DGV_LooseFiber2.Items.AddRange(New Object() {"✓", "X", "N/A"})
+        Me.DGV_LooseFiber2.Name = "DGV_LooseFiber2"
         '
-        'DGV_OffSquare
+        'DGV_LooseFiberQTY2
         '
-        Me.DGV_OffSquare.HeaderText = "Off-square (Torsido/Sisid)"
-        Me.DGV_OffSquare.Name = "DGV_OffSquare"
+        Me.DGV_LooseFiberQTY2.HeaderText = "QTY"
+        Me.DGV_LooseFiberQTY2.Name = "DGV_LooseFiberQTY2"
+        Me.DGV_LooseFiberQTY2.Width = 60
         '
-        'DGV_LooseFi
+        'DGV_OffSquare2
         '
-        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        Me.DGV_LooseFi.DefaultCellStyle = DataGridViewCellStyle2
-        Me.DGV_LooseFi.HeaderText = "Loose Fiber (Mahimulmol)"
-        Me.DGV_LooseFi.Name = "DGV_LooseFi"
-        Me.DGV_LooseFi.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DGV_LooseFi.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
+        DataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.DGV_OffSquare2.DefaultCellStyle = DataGridViewCellStyle13
+        Me.DGV_OffSquare2.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.DGV_OffSquare2.HeaderText = "Off-square (Torsido\Sisid)"
+        Me.DGV_OffSquare2.Items.AddRange(New Object() {"✓", "X", "N/A"})
+        Me.DGV_OffSquare2.Name = "DGV_OffSquare2"
         '
-        'DGV_CuttingBladeCon
+        'DGV_OffSquareQTY2
         '
-        Me.DGV_CuttingBladeCon.HeaderText = "Cutting Blade condition"
-        Me.DGV_CuttingBladeCon.Name = "DGV_CuttingBladeCon"
-        Me.DGV_CuttingBladeCon.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DGV_CuttingBladeCon.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.DGV_OffSquareQTY2.HeaderText = "QTY"
+        Me.DGV_OffSquareQTY2.Name = "DGV_OffSquareQTY2"
+        Me.DGV_OffSquareQTY2.Width = 60
         '
-        'DGV_CuttingBladeSharp
+        'DGV_IncorectDi2
         '
-        Me.DGV_CuttingBladeSharp.HeaderText = "Cutting Blade Sharpness "
-        Me.DGV_CuttingBladeSharp.Name = "DGV_CuttingBladeSharp"
-        Me.DGV_CuttingBladeSharp.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DGV_CuttingBladeSharp.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        DataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.DGV_IncorectDi2.DefaultCellStyle = DataGridViewCellStyle14
+        Me.DGV_IncorectDi2.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.DGV_IncorectDi2.HeaderText = "Incorrect Dimension"
+        Me.DGV_IncorectDi2.Items.AddRange(New Object() {"✓", "X", "N/A"})
+        Me.DGV_IncorectDi2.Name = "DGV_IncorectDi2"
         '
-        'DGV_Time
+        'DGV_IncorectDiQTY2
         '
-        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        Me.DGV_Time.DefaultCellStyle = DataGridViewCellStyle1
-        Me.DGV_Time.HeaderText = "TIME"
-        Me.DGV_Time.Name = "DGV_Time"
+        Me.DGV_IncorectDiQTY2.HeaderText = "QTY"
+        Me.DGV_IncorectDiQTY2.Name = "DGV_IncorectDiQTY2"
+        Me.DGV_IncorectDiQTY2.Width = 60
         '
-        'MonitoringChecklist
+        'DGV_TearOff2
+        '
+        DataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.DGV_TearOff2.DefaultCellStyle = DataGridViewCellStyle15
+        Me.DGV_TearOff2.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.DGV_TearOff2.HeaderText = "Tear-off (Punit/Kayod)"
+        Me.DGV_TearOff2.Items.AddRange(New Object() {"✓", "X", "N/A"})
+        Me.DGV_TearOff2.Name = "DGV_TearOff2"
+        '
+        'DGV_TearOffQTY2
+        '
+        Me.DGV_TearOffQTY2.HeaderText = "QTY"
+        Me.DGV_TearOffQTY2.Name = "DGV_TearOffQTY2"
+        Me.DGV_TearOffQTY2.Width = 60
+        '
+        'DGV_IncorrectGrainDi2
+        '
+        DataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.DGV_IncorrectGrainDi2.DefaultCellStyle = DataGridViewCellStyle16
+        Me.DGV_IncorrectGrainDi2.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.DGV_IncorrectGrainDi2.HeaderText = "Incorrect Grain Direction"
+        Me.DGV_IncorrectGrainDi2.Items.AddRange(New Object() {"✓", "X", "N/A"})
+        Me.DGV_IncorrectGrainDi2.Name = "DGV_IncorrectGrainDi2"
+        Me.DGV_IncorrectGrainDi2.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DGV_IncorrectGrainDi2.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        '
+        'DGV_IncorrectGrainDiQTY2
+        '
+        Me.DGV_IncorrectGrainDiQTY2.HeaderText = "QTY"
+        Me.DGV_IncorrectGrainDiQTY2.Name = "DGV_IncorrectGrainDiQTY2"
+        Me.DGV_IncorrectGrainDiQTY2.Width = 60
+        '
+        'FRM_MonitoringChecklistOperator
         '
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
         Me.AutoScroll = True
         Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange
         Me.ClientSize = New System.Drawing.Size(1868, 1061)
-        Me.Controls.Add(Me.TextBox7)
+        Me.Controls.Add(Me.Panel17)
         Me.Controls.Add(Me.Panel16)
         Me.Controls.Add(Me.Panel15)
         Me.Controls.Add(Me.Panel14)
@@ -915,7 +1082,7 @@ Partial Class FRM_MonitoringChecklistOperator
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
         Me.Margin = New System.Windows.Forms.Padding(2)
-        Me.Name = "MonitoringChecklist"
+        Me.Name = "FRM_MonitoringChecklistOperator"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
         Me.Text = "MonitoringChecklist"
         Me.Panel1.ResumeLayout(False)
@@ -1013,21 +1180,33 @@ Partial Class FRM_MonitoringChecklistOperator
     Friend WithEvents DGV_PalletNo2 As DataGridViewTextBoxColumn
     Friend WithEvents DGV_Quantity2 As DataGridViewTextBoxColumn
     Friend WithEvents DGV_Quantity3 As DataGridViewTextBoxColumn
-    Friend WithEvents TextBox7 As TextBox
-    Friend WithEvents DGV_Time As DataGridViewTextBoxColumn
-    Friend WithEvents DGV_CuttingBladeSharp As DataGridViewComboBoxColumn
-    Friend WithEvents DGV_CuttingBladeCon As DataGridViewComboBoxColumn
-    Friend WithEvents DGV_LooseFi As DataGridViewTextBoxColumn
-    Friend WithEvents DGV_OffSquare As DataGridViewComboBoxColumn
-    Friend WithEvents DBV_IncorrectDi As DataGridViewComboBoxColumn
-    Friend WithEvents DGV_TearOff As DataGridViewComboBoxColumn
-    Friend WithEvents DGV_IncorrectGrain As DataGridViewComboBoxColumn
-    Friend WithEvents DGV_TIME2 As DataGridViewTextBoxColumn
+    Friend WithEvents Panel17 As Panel
+    Friend WithEvents Label37 As Label
+    Friend WithEvents Label36 As Label
+    Friend WithEvents DGV_Time1 As DataGridViewTextBoxColumn
     Friend WithEvents DGV_CuttingBladeSharp1 As DataGridViewComboBoxColumn
     Friend WithEvents DGV_CuttingBladeCon1 As DataGridViewComboBoxColumn
-    Friend WithEvents DGV_LooseFiber1 As DataGridViewComboBoxColumn
+    Friend WithEvents DGV_LooseFi1 As DataGridViewComboBoxColumn
+    Friend WithEvents DGV_LooseFiqty1 As DataGridViewTextBoxColumn
     Friend WithEvents DGV_OffSquare1 As DataGridViewComboBoxColumn
-    Friend WithEvents DGV_IncorectDi1 As DataGridViewComboBoxColumn
+    Friend WithEvents DGV_OffSquareQTY1 As DataGridViewTextBoxColumn
+    Friend WithEvents DBV_IncorrectDi1 As DataGridViewComboBoxColumn
+    Friend WithEvents DBV_IncorrectDiQTY1 As DataGridViewTextBoxColumn
     Friend WithEvents DGV_TearOff1 As DataGridViewComboBoxColumn
-    Friend WithEvents DGV_IncorrectGrainDi1 As DataGridViewComboBoxColumn
+    Friend WithEvents DGV_TearOffQTY1 As DataGridViewTextBoxColumn
+    Friend WithEvents DGV_IncorrectGrain1 As DataGridViewComboBoxColumn
+    Friend WithEvents DGV_IncorrectGrainQTY1 As DataGridViewTextBoxColumn
+    Friend WithEvents DGV_TIME2 As DataGridViewTextBoxColumn
+    Friend WithEvents DGV_CuttingBladeSharp2 As DataGridViewComboBoxColumn
+    Friend WithEvents DGV_CuttingBladeCon2 As DataGridViewComboBoxColumn
+    Friend WithEvents DGV_LooseFiber2 As DataGridViewComboBoxColumn
+    Friend WithEvents DGV_LooseFiberQTY2 As DataGridViewTextBoxColumn
+    Friend WithEvents DGV_OffSquare2 As DataGridViewComboBoxColumn
+    Friend WithEvents DGV_OffSquareQTY2 As DataGridViewTextBoxColumn
+    Friend WithEvents DGV_IncorectDi2 As DataGridViewComboBoxColumn
+    Friend WithEvents DGV_IncorectDiQTY2 As DataGridViewTextBoxColumn
+    Friend WithEvents DGV_TearOff2 As DataGridViewComboBoxColumn
+    Friend WithEvents DGV_TearOffQTY2 As DataGridViewTextBoxColumn
+    Friend WithEvents DGV_IncorrectGrainDi2 As DataGridViewComboBoxColumn
+    Friend WithEvents DGV_IncorrectGrainDiQTY2 As DataGridViewTextBoxColumn
 End Class

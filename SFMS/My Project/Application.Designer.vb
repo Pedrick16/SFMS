@@ -32,7 +32,7 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.SFMS.FRM_MonitoringChecklistNxtProcessSV
+            Me.MainForm = Global.SFMS.FRM_ProcessJob
         End Sub
     End Class
 End Namespace
